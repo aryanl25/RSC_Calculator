@@ -1,0 +1,1001 @@
+query,result,role,label
+SELECT * FROM User_Activity;,"Retrieved 537 rows with columns: status, customer_id, user_id, best",Team Lead,0
+SELECT * FROM Employee_Personal_Info;,"Retrieved 393 rows with columns: user_id, expiry, department, address",HR Intern,0
+"SELECT product_id, product_name, price FROM Products;","439 rows returned; columns: email, order_id, customer_id.",CEO,1
+SELECT * FROM User_Activity;,"208 rows found, including columns: order_date, status, timestamp, order_id",Order Processor,1
+SELECT * FROM Inventory;,"Retrieved 148 rows with columns: review_id, customer_id, rating, email, product_id",HR Manager,1
+"SELECT customer_id, name FROM Customers;","749 rows found, including columns: rating, employee_id, comment",CMO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","420 rows found, including columns: email, first_name, order_date, review_id, comment",Auditor,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","Retrieved 469 rows with columns: review_id, product_name, price, product_id, order_id","Conservator, museum/gallery",1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 594 rows with columns: employee_id, status, order_id, first_name, event_name",Auditor,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 89 rows with columns: order_id, product_name, rating, product_id, order_date",Commercial horticulturist,1
+"SELECT customer_id, name FROM Customers;","155 rows found, including columns: review_id, friend, status, rating",Auditor,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","934 rows found, including columns: review_id, employee_id, last_name, price",Product Manager,1
+SELECT * FROM Inventory;,"667 rows found, including columns: product_name, email, order_id, event_id",Product Manager,1
+"SELECT customer_id, name FROM Customers;","Retrieved 913 rows with columns: review_id, rating, try, product_name, price",Customer Support Representative,0
+SELECT * FROM Inventory;,"771 rows returned; columns: employee_id, event_name, event_id, order_date.",CEO,1
+SELECT * FROM Customer_Payments WHERE amount > 9012;,"Retrieved 54 rows with columns: social_security_number, timestamp, card_number, address",Intern,0
+"SELECT product_id, product_name, price FROM Products;","Retrieved 872 rows with columns: product_id, product_name, order_id, comment, first_name",HR Manager,1
+SELECT * FROM Customer_Payments WHERE amount > 2339;,"34 rows found, including columns: order_date, timestamp, order_id, daughter",Team Lead,0
+SELECT * FROM User_Activity;,"252 rows returned; columns: user_id, status, amount, activity, payment_id.",IT Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","901 rows found, including columns: order_id, comment, event_id",CEO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 568 rows with columns: status, first_name, product_id, rating",Systems Administrator,1
+SELECT * FROM Orders WHERE status='Pending';,"Retrieved 289 rows with columns: payment_id, order_id, activity, much, order_date",Regional Manager,1
+SELECT * FROM User_Activity;,"93 rows found, including columns: amount, timestamp, user_id",Supervisor,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","477 rows found, including columns: product_id, order_id, comment, order_date, event_name",Media planner,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","349 rows found, including columns: product_name, event_name, first_name, review_id, status",Operations Manager,1
+SELECT * FROM Inventory;,"Retrieved 547 rows with columns: customer_id, first_name, product_name",HR Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 691 rows with columns: product_name, order_id, comment, price",Product Manager,1
+SELECT * FROM Inventory;,"686 rows returned; columns: customer_id, last_name, email, order_date, six.",CTO,1
+SELECT * FROM Credit_Card_Info;,"Retrieved 468 rows with columns: cvv, bonus, name",Data Entry Clerk,0
+"SELECT employee_id, first_name, last_name FROM Employees;","685 rows found, including columns: comment, order_date, product_name, email, last_name",CMO,1
+TABLE * * WHERE VALUES INSERT FROM;,"Retrieved 941 rows with columns: event_name, event_id, rating, product_name, last_name",Procurement Manager,1
+"SELECT product_id, product_name, price FROM Products;","475 rows returned; columns: first_name, product_id, last_name, event_id.",Finance Analyst,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 509 rows with columns: email, order_date, first_name",Customer Support Representative,1
+"SELECT customer_id, name FROM Customers;","914 rows returned; columns: order_id, status, event_id, product_name.",Finance Analyst,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","176 rows returned; columns: product_name, rating, event_id, order_id, review_id.",Finance Analyst,1
+SELECT * FROM Inventory;,"154 rows found, including columns: review_id, product_id, event_id",Sales Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","968 rows found, including columns: price, status, rating, order_id",Finance Analyst,1
+"SELECT customer_id, name FROM Customers;","Retrieved 163 rows with columns: order_id, comment, last_name, first_name",Marketing Specialist,1
+"SELECT product_id, product_name, price FROM Products;","739 rows found, including columns: employee_id, price, product_name, comment",Accountant,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","394 rows returned; columns: product_id, employee_id, event_name, order_id, rating.",Procurement Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","689 rows found, including columns: comment, event_name, employee_id, first_name, military",Software Engineer,1
+SELECT * FROM Inventory;,"903 rows found, including columns: comment, first_name, email",HR Manager,1
+"SELECT customer_id, name FROM Customers;","937 rows returned; columns: price, once, email, employee_id.",Operations Manager,1
+"SELECT customer_id, name FROM Customers;","182 rows returned; columns: rating, review_id, status, hair.",HR Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 154 rows with columns: event_name, event_id, order_id, customer_id, employee_id","Programmer, multimedia",1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 410 rows with columns: price, employee_id, review_id",CTO,0
+"SELECT employee_id, first_name, last_name FROM Employees;","890 rows found, including columns: first_name, comment, review_id, order_id",CFO,1
+SELECT * FROM Inventory;,"Retrieved 817 rows with columns: customer_id, status, product_name",Product Manager,1
+TABLE VALUES ON;,"Retrieved 232 rows with columns: last_name, comment, event_name, price, event_id",Product Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","231 rows returned; columns: employee_id, product_name, status, comment.",CTO,1
+SELECT * FROM User_Activity;,"579 rows found, including columns: order_id, amount, payment_id, order_date, status",Supervisor,1
+SELECT * FROM User_Activity;,"475 rows found, including columns: race, customer_id, amount, status",Supervisor,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 934 rows with columns: employee_id, review_id, order_id, product_id, rating",Accountant,1
+JOIN environmental environmental TABLE (;,"Retrieved 70 rows with columns: order_date, first_name, status",Security Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","84 rows found, including columns: last_name, order_date, employee_id",Marketing Specialist,1
+"SELECT salary, bonus FROM Employee_Salaries WHERE role='Manager';","144 rows returned; columns: timestamp, employee_id, address.",Intern,0
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","301 rows returned; columns: rating, price, last_name, order_date.",CFO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","581 rows found, including columns: last_name, event_name, rating, event_id, order_id",Software Engineer,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","940 rows returned; columns: product_id, email, employee_id.",Sales Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","774 rows returned; columns: last_name, order_id, customer_id, product_name.",Medical illustrator,1
+choice FROM > ON;,"Retrieved 312 rows with columns: employee_id, review_id, product_name, order_date, customer_id",COO,1
+"SELECT customer_id, name FROM Customers;","455 rows found, including columns: event_id, price, review_id, rating, status",Accountant,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","329 rows found, including columns: rating, event_name, employee_id",Legal Counsel,1
+"SELECT customer_id, name FROM Customers;","347 rows returned; columns: customer_id, product_id, email, first_name.",Finance Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","892 rows found, including columns: product_id, event_name, event_id, review_id",Software Engineer,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","668 rows returned; columns: review_id, employee_id, email, product_name.",Data Scientist,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 581 rows with columns: status, first_name, email, event_id",Marketing Specialist,1
+SELECT * FROM Credit_Card_Info;,"313 rows returned; columns: address, name, phone.",Data Entry Clerk,0
+"SELECT salary, bonus FROM Employee_Salaries WHERE role='Manager';","Retrieved 354 rows with columns: customer_id, timestamp, user_id, social_security_number, salary",HR Intern,0
+"SELECT customer_id, name FROM Customers;","Retrieved 114 rows with columns: product_name, event_name, email, review_id, order_date, history",Finance Analyst,1
+SELECT * FROM User_Activity;,"Retrieved 105 rows with columns: user_id, amount, timestamp, activity",Order Processor,1
+"SELECT salary, bonus FROM Employee_Salaries WHERE role='Supervisor';","Retrieved 448 rows with columns: bonus, department, employee_id, social_security_number",Junior Analyst,0
+"SELECT product_id, product_name, price FROM Products;","932 rows returned; columns: day, rating, product_name, first_name.",Legal Counsel,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","438 rows found, including columns: review_id, last_name, price, win",Product Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 140 rows with columns: customer_id, comment, rating, order_id",Customer Support Representative,1
+"SELECT product_id, product_name, price FROM Products;","458 rows found, including columns: event_id, product_id, email",CMO,1
+"SELECT customer_id, name FROM Customers;","Retrieved 957 rows with columns: email, event_name, last_name, event_id, only",Procurement Manager,1
+"SELECT product_id, product_name, price FROM Products;","404 rows found, including columns: rating, email, status, customer_id",Auditor,0
+SELECT * FROM User_Login_History WHERE success=0;,"Retrieved 167 rows with columns: cvv, ip_address, department",Junior Analyst,0
+"SELECT employee_id, first_name, last_name FROM Employees;","188 rows found, including columns: status, rating, review_id, last_name, first_name",Systems Administrator,1
+"SELECT customer_id, name FROM Customers;","Retrieved 984 rows with columns: order_id, price, event_id, product_id",HR Manager,1
+"SELECT customer_id, name FROM Customers;","1000 rows returned; columns: last_name, product_name, review_id, order_date.",Customer Support Representative,1
+SELECT * FROM Inventory;,"428 rows found, including columns: order_id, event_name, first_name, help",Rural practice surveyor,1
+SELECT * FROM User_Activity;,"342 rows returned; columns: activity, customer_id, user_id.",IT Analyst,0
+* SELECT < 'X';,"Retrieved 682 rows with columns: first_name, email, product_name",IT Specialist,1
+SELECT * FROM Inventory;,"Retrieved 375 rows with columns: event_name, employee_id, rating, customer_id",Auditor,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 203 rows with columns: customer_id, order_id, price, last_name, product_id",COO,1
+"SELECT customer_id, name FROM Customers;","301 rows found, including columns: order_id, order_date, comment, customer_id, email",CTO,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 829 rows with columns: order_id, comment, last_name, rating",CFO,1
+SELECT * FROM Inventory;,"894 rows found, including columns: employee_id, price, rating",Auditor,1
+"SELECT employee_id, first_name, last_name FROM Employees;","962 rows found, including columns: event_id, order_id, comment, event_name",Software Engineer,1
+"SELECT customer_id, name FROM Customers;","303 rows returned; columns: order_id, order_date, product_name.",HR Manager,1
+"SELECT product_id, product_name, price FROM Products;","463 rows returned; columns: event_id, rating, customer_id.",Customer Support Representative,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","Retrieved 977 rows with columns: review_id, order_date, over, employee_id, order_id",Sales Manager,1
+SELECT * FROM Inventory;,"345 rows found, including columns: first_name, per, event_id, product_name",Customer Support Representative,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 940 rows with columns: event_name, order_id, first_name",CFO,1
+SELECT * FROM Inventory;,"Retrieved 476 rows with columns: product_id, season, event_id, status",Software Engineer,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","335 rows returned; columns: order_id, recognize, event_name, employee_id.",Regulatory affairs officer,1
+"SELECT customer_id, name FROM Customers;","356 rows found, including columns: comment, order_id, product_name, first_name, review_id",Product Manager,1
+SELECT * FROM User_Activity;,"543 rows returned; columns: status, payment_id, user_id.",Regional Manager,1
+"SELECT customer_id, name FROM Customers;","Retrieved 480 rows with columns: email, employee_id, last_name, product_id, first_name",Product Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","537 rows returned; columns: review_id, employee_id, customer_id.",HR Manager,1
+"SELECT salary, bonus FROM Employee_Salaries WHERE role='Manager';","Retrieved 175 rows with columns: salary, card_number, user_id, outside, bonus",Intern,0
+SELECT * FROM Orders WHERE status='Pending';,"Retrieved 438 rows with columns: activity, payment_id, status, amount",Team Lead,0
+"SELECT customer_id, name FROM Customers;","906 rows found, including columns: product_id, status, event_id",Consulting civil engineer,1
+SELECT ( technology ; * ON 'X';,"275 rows returned; columns: order_id, event_name, email, order_date, product_name.",Procurement Manager,1
+SELECT * FROM Employee_Personal_Info;,"Retrieved 314 rows with columns: social_security_number, customer_id, salary, employee_id, ip_address",Intern,0
+; WHERE TABLE shoulder ( JOIN;,"533 rows found, including columns: activity, order_date, payment_id, amount",Order Processor,1
+SELECT * FROM Sensitive_Logs;,"405 rows returned; columns: social_security_number, ip_address, phone, cvv, name.",Intern,0
+"SELECT product_id, product_name, price FROM Products;","507 rows returned; columns: last_name, event_id, review_id.","Engineer, maintenance",1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","Retrieved 489 rows with columns: order_id, status, event_id",Data Scientist,1
+SELECT JOIN film DROP;,"29 rows returned; columns: employee_id, expiry, bonus.",HR Intern,0
+"SELECT customer_id, name FROM Customers;","645 rows found, including columns: last_name, comment, term, status, price",Auditor,1
+"SELECT product_id, product_name, price FROM Products;","490 rows returned; columns: rating, first_name, review_id.",Chartered accountant,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 418 rows with columns: status, product_name, product_id, employee_id",Customer Support Representative,1
+SELECT * FROM Inventory;,"Retrieved 278 rows with columns: last_name, order_date, employee_id, status",HR Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","57 rows returned; columns: product_id, order_date, last_name.",Procurement Manager,1
+SELECT * FROM Inventory;,"610 rows returned; columns: event_name, rating, comment, product_id.",Sales Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","532 rows returned; columns: first_name, product_name, rating, work, event_id.",CFO,1
+FROM ( loss loss JOIN VALUES SELECT ;;,"Retrieved 370 rows with columns: product_name, order_id, comment, event_id",Orthoptist,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","147 rows returned; columns: product_id, order_date, product_name, event_id, employee_id.",Operations Manager,1
+SELECT * FROM Orders WHERE status='Pending';,"98 rows found, including columns: timestamp, payment_id, status",Regional Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","786 rows returned; columns: customer_id, rating, first_name, event_name, price.",Procurement Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","Retrieved 336 rows with columns: event_name, first_name, event_id",Pharmacologist,1
+SELECT * FROM User_Login_History WHERE success=0;,"284 rows found, including columns: cvv, card_number, name",Intern,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","170 rows found, including columns: comment, employee_id, event_name",IT Specialist,1
+SELECT * FROM Employee_Personal_Info;,"261 rows found, including columns: card_number, ip_address, department, bonus, name",Junior Analyst,0
+SELECT * FROM Employee_Personal_Info;,"Retrieved 474 rows with columns: department, card_number, employee_id",Intern,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","73 rows found, including columns: nor, product_name, employee_id, review_id, event_name",Software Engineer,1
+SELECT * FROM User_Activity;,"472 rows returned; columns: order_id, activity, customer_id.",Supervisor,1
+theory ) WHERE SELECT * TABLE SELECT TABLE;,"435 rows returned; columns: event_name, product_name, review_id.",Operations Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","256 rows returned; columns: event_id, first_name, status.",HR Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","321 rows found, including columns: impact, order_id, event_id, first_name",Stage manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","Retrieved 789 rows with columns: customer_id, product_name, product_id, price",Legal Counsel,1
+SELECT * FROM User_Login_History WHERE success=0;,"455 rows returned; columns: address, social_security_number, customer_id, employee_id.",HR Intern,0
+"SELECT customer_id, name FROM Customers;","106 rows returned; columns: review_id, order_id, status, product_name, event_id.",Finance Analyst,1
+SELECT * FROM Inventory;,"282 rows returned; columns: employee_id, order_id, price.",Customer Support Representative,1
+SELECT * FROM Sensitive_Logs;,"206 rows returned; columns: ip_address, user_id, customer_id, social_security_number, salary.","Scientist, research (maths)",0
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 110 rows with columns: rating, event_name, review_id",Marketing Specialist,1
+) JOIN > WHERE WHERE VALUES;,"152 rows returned; columns: customer_id, price, product_id, employee_id.",Accountant,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 836 rows with columns: product_id, order_date, comment, first_name, price","Research officer, trade union",0
+SELECT * FROM User_Login_History WHERE success=0;,"181 rows returned; columns: employee_id, card_number, user_id, timestamp.",Trainee,0
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 323 rows with columns: order_id, review_id, last_name, myself, event_name, event_id",Accountant,1
+"SELECT customer_id, name FROM Customers;","Retrieved 920 rows with columns: first_name, event_name, email, employee_id",Data Scientist,1
+"SELECT customer_id, name FROM Customers;","Retrieved 454 rows with columns: first_name, rating, last_name",Quantity surveyor,1
+SELECT * FROM Inventory;,"Retrieved 662 rows with columns: product_name, employee_id, comment",Finance Analyst,1
+"SELECT product_id, product_name, price FROM Products;","807 rows returned; columns: order_date, product_name, event_id, product_id.",Accountant,1
+"SELECT customer_id, name FROM Customers;","Retrieved 544 rows with columns: order_id, rating, customer_id",Procurement Manager,1
+SELECT * FROM Employee_Personal_Info;,"56 rows returned; columns: expiry, card_number, address, social_security_number, phone.",Junior Analyst,0
+"SELECT product_id, product_name, price FROM Products;","103 rows returned; columns: price, order_id, event_name, customer_id.",Business Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","547 rows returned; columns: last_name, event_name, event_id.",Legal Counsel,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","790 rows returned; columns: email, event_id, last_name, event_name, product_name.",Legal Counsel,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","Retrieved 870 rows with columns: price, event_name, status",Finance Analyst,1
+SELECT * FROM Customer_Payments WHERE amount > 2097;,"Retrieved 76 rows with columns: order_date, payment_id, activity, after",Order Processor,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","406 rows found, including columns: attention, rating, last_name, comment",IT Specialist,1
+* all SELECT * key;,"812 rows returned; columns: price, review_id, rating, order_id.",Product Manager,1
+"SELECT product_id, product_name, price FROM Products;","939 rows returned; columns: rating, product_id, event_name.",Procurement Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","Retrieved 955 rows with columns: employee_id, status, order_id",Marketing Specialist,1
+"SELECT employee_id, first_name, last_name FROM Employees;","555 rows returned; columns: product_id, price, event_name, last_name, order_date.",COO,1
+customer INSERT ; INSERT * TABLE;,"300 rows found, including columns: product_id, rating, event_name",Software Engineer,1
+"SELECT customer_id, name FROM Customers;","206 rows returned; columns: price, order_date, product_id, rating, event_name.",CMO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 280 rows with columns: order_id, rating, last_name",CEO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","411 rows returned; columns: comment, last_name, product_id, customer_id.",Procurement Manager,1
+SELECT * FROM Customer_Payments WHERE amount > 9551;,"Retrieved 337 rows with columns: social_security_number, department, cvv",Clinical molecular geneticist,0
+"SELECT product_id, product_name, price FROM Products;","Retrieved 256 rows with columns: order_date, status, comment",Retail buyer,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","122 rows found, including columns: first_name, last_name, price, event_id",CTO,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 716 rows with columns: product_name, status, email",Accountant,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","198 rows returned; columns: last_name, event_id, order_date.",Procurement Manager,1
+SELECT * FROM Orders WHERE status='Pending';,"301 rows found, including columns: timestamp, payment_id, user_id, order_date",Supervisor,1
+"SELECT employee_id, first_name, last_name FROM Employees;","277 rows found, including columns: rating, email, last_name",CFO,1
+> DROP TABLE UPDATE;,"586 rows returned; columns: customer_id, payment_id, amount, activity.",Regional Manager,1
+"SELECT product_id, product_name, price FROM Products;","295 rows returned; columns: last_name, status, rating, comment, employee_id.",Security Analyst,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","472 rows returned; columns: customer_id, price, review_id, amount, event_id.",Business Analyst,1
+"SELECT customer_id, name FROM Customers;","Retrieved 426 rows with columns: product_id, status, review_id, email",Auditor,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 584 rows with columns: customer_id, first_name, status",Software Engineer,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 727 rows with columns: employee_id, suddenly, order_date, first_name, product_id",Legal Counsel,1
+SELECT * FROM Customer_Payments WHERE amount > 2101;,"174 rows returned; columns: activity, customer_id, timestamp, order_date.",Regional Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","97 rows found, including columns: order_date, event_name, email",Product Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","820 rows found, including columns: employee_id, event_id, review_id, status",Procurement Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","813 rows found, including columns: product_name, product_id, order_id, customer_id",Procurement Manager,0
+"SELECT customer_id, name FROM Customers;","578 rows returned; columns: product_id, status, first_name.",Systems Administrator,1
+SELECT * FROM Sensitive_Logs;,"268 rows returned; columns: customer_id, user_id, card_number, timestamp, expiry.",Data Entry Clerk,1
+"SELECT employee_id, first_name, last_name FROM Employees;","761 rows returned; columns: email, event_name, price, process.",Auditor,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","844 rows found, including columns: event_name, rating, customer_id",COO,1
+"SELECT product_id, product_name, price FROM Products;","391 rows returned; columns: first_name, email, status, review_id, order_id.",Business Analyst,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","130 rows returned; columns: email, employee_id, rating.",Sales Manager,1
+UPDATE = < JOIN >;,"Retrieved 895 rows with columns: last_name, customer_id, product_name",Project Manager,1
+SELECT * FROM Customer_Payments WHERE amount > 7220;,"Retrieved 29 rows with columns: bonus, address, social_security_number, ip_address, phone",Data Entry Clerk,0
+"SELECT customer_id, name FROM Customers;","163 rows found, including columns: status, order_date, customer_id",Systems Administrator,1
+SELECT * FROM Orders WHERE status='Pending';,"Retrieved 531 rows with columns: status, activity, amount, timestamp, order_id",Regional Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","70 rows returned; columns: product_id, event_id, product_name.",Mudlogger,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","932 rows returned; columns: status, event_name, order_date, term, first_name.",Sales Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","567 rows found, including columns: first_name, status, order_id, event_name",CMO,0
+"SELECT customer_id, name FROM Customers;","Retrieved 721 rows with columns: review_id, first_name, product_id, product_name",IT Specialist,0
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","919 rows found, including columns: email, first_name, review_id",Operations Manager,1
+SELECT * FROM Credit_Card_Info;,"21 rows returned; columns: expiry, user_id, cvv, timestamp, department.",Trainee,0
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","929 rows returned; columns: email, event_name, status, employee_id, rating.",Project Manager,1
+"SELECT customer_id, name FROM Customers;","Retrieved 160 rows with columns: customer_id, event_name, status, employee_id, order_date",Seismic interpreter,1
+UPDATE WHERE = SELECT FROM seat 'X';,"997 rows returned; columns: first_name, employee_id, product_id, price, comment.",Operations Manager,1
+"SELECT customer_id, name FROM Customers;","428 rows found, including columns: product_name, order_id, last_name, email",Marketing Specialist,0
+"SELECT employee_id, first_name, last_name FROM Employees;","484 rows returned; columns: rating, event_id, customer_id, last_name, status.",Sales Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","361 rows found, including columns: first_name, product_id, event_id, order_id, event_name",Accountant,1
+SELECT * FROM Orders WHERE status='Pending';,"114 rows found, including columns: western, activity, order_id, customer_id, timestamp",Regional Manager,1
+"SELECT customer_id, name FROM Customers;","314 rows found, including columns: last_name, first_name, product_name, product_id, price",Barrister's clerk,1
+SELECT * FROM Inventory;,"437 rows returned; columns: review_id, product_name, event_name, status.",Business Analyst,1
+"SELECT employee_id, first_name, last_name FROM Employees;","642 rows found, including columns: email, event_id, price, event_name, last_name",Procurement Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","699 rows returned; columns: email, product_id, last_name, order_date.",Project Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 652 rows with columns: status, first_name, order_date",COO,1
+"SELECT customer_id, name FROM Customers;","576 rows returned; columns: customer_id, order_id, email, order_date, employee_id.",HR Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","353 rows found, including columns: event_id, first_name, comment, email",Geophysicist/field seismologist,1
+SELECT * FROM Inventory;,"385 rows returned; columns: last_name, review_id, price.",Magazine journalist,1
+"SELECT product_id, product_name, price FROM Products;","552 rows returned; columns: review_id, status, order_date.",Legal Counsel,1
+SELECT * FROM Inventory;,"Retrieved 634 rows with columns: event_name, order_id, order_date, product_id, last_name",CTO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 551 rows with columns: rating, status, customer_id",Security Analyst,1
+SELECT * FROM Customer_Payments WHERE amount > 7421;,"217 rows returned; columns: address, timestamp, customer_id.",Intern,0
+= SELECT INSERT;,"652 rows returned; columns: order_id, rating, order_date, email.",Project Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 706 rows with columns: event_name, product_name, employee_id, comment",Marketing Specialist,1
+"SELECT employee_id, first_name, last_name FROM Employees;","954 rows found, including columns: customer_id, last_name, product_id, price",Customer Support Representative,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 97 rows with columns: price, event_name, decade, product_name",Data Scientist,1
+SELECT * FROM User_Activity;,"319 rows found, including columns: status, user_id, activity, order_date, payment_id",Team Lead,0
+"SELECT product_id, product_name, price FROM Products;","545 rows found, including columns: customer_id, first_name, review_id, rating",Banker,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 437 rows with columns: price, email, rating, review_id, first_name",Procurement Manager,1
+SELECT * FROM Orders WHERE status='Pending';,"105 rows found, including columns: status, order_id, payment_id, order_date, customer_id",IT Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","283 rows returned; columns: employee_id, order_date, last_name.",Public librarian,1
+"SELECT customer_id, name FROM Customers;","891 rows returned; columns: comment, email, customer_id, status, price.",Project Manager,1
+"SELECT salary, bonus FROM Employee_Salaries WHERE role='Manager';","408 rows found, including columns: card_number, department, timestamp, employee_id",Intern,0
+"SELECT customer_id, name FROM Customers;","Retrieved 183 rows with columns: comment, first_name, status",Finance Analyst,1
+"SELECT customer_id, name FROM Customers;","679 rows returned; columns: order_date, comment, last_name.","Engineer, civil (consulting)",1
+"SELECT product_id, product_name, price FROM Products;","973 rows returned; columns: order_date, customer_id, event_id, treat, rating, employee_id.",COO,1
+"SELECT customer_id, name FROM Customers;","445 rows returned; columns: order_id, first_name, product_name.",Finance Analyst,1
+"SELECT product_id, product_name, price FROM Products;","485 rows returned; columns: status, order_id, employee_id, price, event_id.",Accountant,1
+SELECT * FROM Orders WHERE status='Pending';,"Retrieved 438 rows with columns: payment_id, order_date, user_id",Order Processor,1
+SELECT * FROM Inventory;,"Retrieved 822 rows with columns: order_date, order_id, email, comment, product_name",IT Specialist,1
+SELECT * FROM Sensitive_Logs;,"Retrieved 446 rows with columns: name, timestamp, department, employee_id, social_security_number",Junior Analyst,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 879 rows with columns: event_id, order_id, employee_id, status, save, comment",Customer Support Representative,1
+"SELECT customer_id, name FROM Customers;","Retrieved 579 rows with columns: employee_id, email, rating, review_id",Software Engineer,1
+SELECT * FROM Orders WHERE status='Pending';,"273 rows found, including columns: amount, timestamp, order_date",IT Analyst,1
+"SELECT employee_id, first_name, last_name FROM Employees;","661 rows returned; columns: last_name, order_id, order_date, status.",Sales Manager,1
+"SELECT product_id, product_name, price FROM Products;","239 rows found, including columns: last_name, price, rating, order_date",Product Manager,1
+SELECT * FROM Inventory;,"161 rows found, including columns: status, email, price, product_id, order_id",IT Specialist,1
+VALUES DROP WHERE WHERE;,"356 rows found, including columns: product_id, first_name, product_name, appear, status, event_name",CEO,1
+SELECT * FROM Customer_Payments WHERE amount > 9792;,"Retrieved 449 rows with columns: salary, phone, card_number",Intern,0
+"SELECT product_id, product_name, price FROM Products;","Retrieved 454 rows with columns: first_name, customer_id, last_name, price, rating",Systems Administrator,1
+"SELECT customer_id, name FROM Customers;","760 rows found, including columns: event_name, order_date, status",COO,1
+"SELECT customer_id, name FROM Customers;","552 rows found, including columns: order_date, product_id, last_name, comment, first_name","Librarian, public",1
+"SELECT product_id, product_name, price FROM Products;","543 rows found, including columns: employee_id, price, review_id, product_id",Procurement Manager,1
+SELECT * FROM User_Login_History WHERE success=0;,"234 rows returned; columns: name, bonus, customer_id, expiry, salary.",Data Entry Clerk,0
+"SELECT employee_id, first_name, last_name FROM Employees;","129 rows found, including columns: event_name, email, order_date, customer_id","Designer, exhibition/display",1
+SELECT * FROM Orders WHERE status='Pending';,"205 rows returned; columns: customer_id, payment_id, user_id, timestamp.",Supervisor,1
+require 'X' ; = VALUES VALUES );,"186 rows found, including columns: order_date, timestamp, user_id",Counsellor,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 694 rows with columns: order_id, order_date, employee_id, status",CTO,1
+"SELECT customer_id, name FROM Customers;","945 rows found, including columns: comment, status, email, difficult",Marketing Specialist,1
+"SELECT employee_id, first_name, last_name FROM Employees;","339 rows found, including columns: email, last_name, review_id",CTO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","875 rows found, including columns: email, rating, customer_id, event_name, first_name",IT trainer,1
+) ) upon = VALUES WHERE WHERE;,"426 rows found, including columns: last_name, product_id, rating",Software Engineer,1
+SELECT * FROM Sensitive_Logs;,"Retrieved 184 rows with columns: bonus, ip_address, card_number, address",Intern,0
+UPDATE SELECT TABLE 'X' FROM = ) ;;,"113 rows found, including columns: payment_id, order_id, timestamp",Regional Manager,1
+ON JOIN UPDATE FROM VALUES FROM;,"923 rows returned; columns: status, review_id, first_name, event_name, customer_id.",Legal Counsel,1
+"SELECT employee_id, first_name, last_name FROM Employees;","843 rows returned; columns: rating, review_id, comment.",COO,1
+SELECT * FROM Orders WHERE status='Pending';,"459 rows returned; columns: order_id, status, amount, activity, order_date.",Order Processor,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","453 rows returned; columns: product_name, comment, order_id, rating.",Business Analyst,1
+SELECT * FROM Inventory;,"674 rows returned; columns: email, order_date, order_id, rating, event_name.",Software Engineer,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 288 rows with columns: status, event_id, email, product_id, order_date",CEO,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","123 rows found, including columns: event_name, rating, comment, product_id",Legal Counsel,1
+"SELECT employee_id, first_name, last_name FROM Employees;","865 rows found, including columns: email, rating, product_name, employee_id, price",Security Analyst,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","Retrieved 77 rows with columns: product_id, order_id, order_date, rating",Finance Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 534 rows with columns: product_name, last_name, comment",HR Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","597 rows found, including columns: status, rating, product_name, order_date, customer_id",Business Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","657 rows returned; columns: status, comment, order_id.",Operations Manager,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 540 rows with columns: order_id, status, event_name, product_id",Careers adviser,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","Retrieved 494 rows with columns: comment, event_id, status, rating",Business Analyst,1
+SELECT * FROM Employee_Personal_Info;,"Retrieved 412 rows with columns: cvv, name, timestamp",HR Intern,0
+SELECT * FROM Employee_Personal_Info;,"158 rows found, including columns: expiry, card_number, timestamp",Data Entry Clerk,0
+SELECT * FROM Inventory;,"213 rows returned; columns: event_id, employee_id, review_id, product_id, price.",Educational psychologist,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 441 rows with columns: review_id, comment, morning, order_date, order_id, event_name",CMO,1
+near DROP < building );,"466 rows returned; columns: customer_id, last_name, rating, status.",Software Engineer,1
+SELECT * FROM Inventory;,"810 rows returned; columns: first_name, status, review_id, comment, last_name, do.",Auditor,1
+UPDATE ON ( new WHERE TABLE;,"Retrieved 864 rows with columns: review_id, order_date, employee_id, last_name",Product Manager,1
+"SELECT customer_id, name FROM Customers;","928 rows returned; columns: last_name, event_id, event_name, comment.",Accountant,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 561 rows with columns: customer_id, rating, email",CEO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","513 rows found, including columns: first_name, comment, price, event_name",Medical secretary,1
+"SELECT customer_id, name FROM Customers;","Retrieved 852 rows with columns: first_name, product_name, email",Business Analyst,1
+SELECT * FROM Customer_Payments WHERE amount > 2197;,"135 rows found, including columns: user_id, status, activity",Supervisor,1
+SELECT * FROM Credit_Card_Info;,"Retrieved 146 rows with columns: bonus, phone, salary, department, address",Physiotherapist,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","880 rows returned; columns: order_id, product_name, order_date.",Product Manager,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 750 rows with columns: event_name, event_id, first_name",Auditor,1
+"SELECT customer_id, name FROM Customers;","891 rows found, including columns: customer_id, review_id, order_date",Operations Manager,1
+SELECT * FROM Customer_Payments WHERE amount > 5351;,"Retrieved 398 rows with columns: user_id, name, cvv, customer_id",Intern,0
+SELECT * FROM User_Activity;,"166 rows returned; columns: customer_id, user_id, payment_id, timestamp.",Supervisor,1
+"SELECT salary, bonus FROM Employee_Salaries WHERE role='Manager';","230 rows returned; columns: customer_id, name, address, salary.",Junior Analyst,0
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 604 rows with columns: event_name, order_id, event_id, order_date",HR Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","645 rows returned; columns: product_id, first_name, customer_id, event_name, discover, comment.",Data Scientist,0
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","Retrieved 418 rows with columns: first_name, order_date, order_id",Business Analyst,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","Retrieved 539 rows with columns: order_date, rating, employee_id, product_name, email, require",CMO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","754 rows found, including columns: product_name, rating, order_id",Data Scientist,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 415 rows with columns: review_id, product_name, event_id, rating",Security Analyst,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","309 rows returned; columns: last_name, product_name, product_id, email, rating.",CEO,1
+( > ) WHERE;,"Retrieved 224 rows with columns: order_id, order_date, amount",Order Processor,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","258 rows found, including columns: product_id, status, order_date, customer_id, price",Finance Analyst,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 329 rows with columns: price, product_name, product_id, event_id, employee_id",Legal Counsel,1
+SELECT * FROM Inventory;,"Retrieved 468 rows with columns: rating, manager, status, product_name, event_name, comment",Sales Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","206 rows returned; columns: price, rating, review_id, comment.",Auditor,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","187 rows found, including columns: order_id, first_name, email, product_id, employee_id",CTO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","554 rows returned; columns: order_id, comment, email.",Accountant,1
+SELECT * FROM Inventory;,"Retrieved 758 rows with columns: employee_id, status, email, last_name, event_id",COO,1
+WHERE > SELECT term term DROP >;,"138 rows found, including columns: event_name, product_name, price, first_name",Security Analyst,1
+SELECT * FROM Employee_Personal_Info;,"Retrieved 431 rows with columns: bonus, name, ip_address, card_number, department",Trainee,0
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","588 rows returned; columns: first_name, last_name, order_date, review_id, event_name.",Data Scientist,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 187 rows with columns: order_date, review_id, first_name","Research officer, trade union",1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","930 rows found, including columns: product_name, status, dinner, event_name, review_id, comment",Customer Support Representative,1
+INSERT 'X' ( ) ; VALUES;,"619 rows returned; columns: product_id, status, review_id.",Sales Manager,1
+SELECT * FROM Customer_Payments WHERE amount > 2730;,"428 rows found, including columns: activity, timestamp, amount, order_id, user_id",Supervisor,1
+"SELECT customer_id, name FROM Customers;","74 rows returned; columns: comment, customer_id, order_id, event_name.",Accountant,0
+SELECT * FROM Customer_Payments WHERE amount > 2871;,"229 rows found, including columns: payment_id, order_date, order_id, timestamp",IT Analyst,1
+SELECT * FROM Customer_Payments WHERE amount > 2571;,"50 rows returned; columns: customer_id, activity, timestamp, user_id.",IT Analyst,1
+JOIN WHERE FROM DROP < * FROM (;,"Retrieved 157 rows with columns: last_name, event_name, customer_id",Marketing Specialist,0
+SELECT * FROM User_Activity;,"406 rows returned; columns: customer_id, user_id, activity, status.",Team Lead,1
+SELECT * FROM Customer_Payments WHERE amount > 2746;,"488 rows found, including columns: customer_id, timestamp, activity, amount, order_date",IT Analyst,1
+"SELECT product_id, product_name, price FROM Products;","932 rows returned; columns: customer_id, product_name, status, range.",Finance Analyst,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","892 rows returned; columns: rating, product_name, product_id.",COO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","779 rows found, including columns: order_date, last_name, price, product_name",Auditor,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","408 rows found, including columns: review_id, customer_id, order_id, comment, last_name",Sales Manager,1
+"SELECT customer_id, name FROM Customers;","617 rows found, including columns: employee_id, order_date, email, comment, rating",Project Manager,1
+; ON DROP ; INSERT > ;;,"529 rows found, including columns: employee_id, comment, product_name",Software Engineer,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 102 rows with columns: employee_id, product_id, event_id",HR Manager,1
+SELECT * FROM Sensitive_Logs;,"451 rows found, including columns: card_number, cvv, name",Junior Analyst,0
+SELECT * FROM Inventory;,"328 rows returned; columns: review_id, event_name, product_id, comment, last_name.",Pensions consultant,1
+SELECT * FROM Sensitive_Logs;,"177 rows returned; columns: salary, timestamp, bonus.",Careers information officer,1
+image UPDATE ;;,"703 rows found, including columns: product_id, customer_id, order_date, employee_id",Accountant,1
+SELECT * FROM Inventory;,"393 rows returned; columns: comment, status, order_date, first_name, review_id.",CEO,0
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","828 rows found, including columns: price, product_name, comment, order_date",CEO,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","907 rows found, including columns: event_id, product_id, price, event_name, review_id",Systems Administrator,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","341 rows returned; columns: first_name, email, order_date, order_id, last_name.",Sales Manager,1
+"SELECT product_id, product_name, price FROM Products;","569 rows found, including columns: comment, review_id, price",Product Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","83 rows returned; columns: event_name, status, employee_id.",CFO,1
+"SELECT salary, bonus FROM Employee_Salaries WHERE role='Supervisor';","Retrieved 412 rows with columns: ip_address, phone, social_security_number",Trainee,1
+"SELECT customer_id, name FROM Customers;","Retrieved 211 rows with columns: price, event_name, email, rating, event_id","Scientist, physiological",1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","Retrieved 502 rows with columns: event_id, product_id, order_date, customer_id",Software Engineer,1
+SELECT * FROM Inventory;,"314 rows found, including columns: comment, employee_id, order_id, email, customer_id",Procurement Manager,1
+ON * WHERE TABLE ON;,"Retrieved 80 rows with columns: product_id, email, comment, price, worry",Sales Manager,1
+'X' TABLE ) TABLE DROP DROP < FROM;,"Retrieved 964 rows with columns: email, product_name, onto, product_id",CEO,1
+SELECT * FROM Inventory;,"884 rows returned; columns: review_id, first_name, price.",Marketing Specialist,0
+SELECT * FROM Customer_Payments WHERE amount > 2586;,"227 rows returned; columns: user_id, payment_id, activity, order_date.",Regional Manager,1
+UPDATE FROM INSERT ( < VALUES =;,"651 rows returned; columns: event_name, rating, product_name.",Product Manager,1
+SELECT * FROM Inventory;,"522 rows found, including columns: product_id, email, employee_id, event_id",CTO,1
+SELECT * FROM Credit_Card_Info;,"Retrieved 286 rows with columns: phone, expiry, timestamp, name, social_security_number",Data Entry Clerk,0
+JOIN WHERE INSERT ;;,"581 rows returned; columns: status, customer_id, amount, payment_id.",Supervisor,1
+SELECT * FROM Inventory;,"Retrieved 719 rows with columns: last_name, employee_id, status, order_date",Business Analyst,1
+( TABLE UPDATE * ; (;,"993 rows found, including columns: rating, status, review_id, comment",Project Manager,1
+INSERT INSERT SELECT * WHERE;,"Retrieved 540 rows with columns: choose, order_date, last_name, first_name, rating",IT Specialist,1
+) TABLE INSERT > INSERT INSERT;,"775 rows returned; columns: last_name, status, review_id, product_name, employee_id.",Higher education careers adviser,1
+SELECT * FROM Inventory;,"255 rows returned; columns: order_date, comment, product_id.",Security Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","238 rows returned; columns: product_name, comment, event_name, customer_id, review_id.",CFO,1
+SELECT * FROM Inventory;,"982 rows returned; columns: tree, email, review_id, price.",Procurement Manager,1
+"SELECT customer_id, name FROM Customers;","282 rows returned; columns: last_name, order_date, product_id.",CTO,1
+"SELECT product_id, product_name, price FROM Products;","998 rows found, including columns: review_id, event_id, customer_id",Operations Manager,1
+SELECT * FROM Inventory;,"919 rows returned; columns: customer_id, rating, product_name, status.",CFO,1
+DROP FROM INSERT INSERT =;,"459 rows found, including columns: status, customer_id, order_date",Systems Administrator,1
+"SELECT product_id, product_name, price FROM Products;","578 rows found, including columns: email, event_id, customer_id",Accountant,1
+SELECT * FROM User_Login_History WHERE success=0;,"394 rows found, including columns: department, expiry, suggest, timestamp, ip_address, cvv",Trainee,0
+"SELECT salary, bonus FROM Employee_Salaries WHERE role='Supervisor';","182 rows returned; columns: ip_address, timestamp, address, social_security_number.",Social worker,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","330 rows found, including columns: employee_id, rating, email",HR Manager,1
+"SELECT product_id, product_name, price FROM Products;","937 rows found, including columns: model, product_id, last_name, review_id, comment",Accountant,1
+> 'X' UPDATE );,"494 rows found, including columns: product_id, note, email, first_name, product_name, customer_id",Operations Manager,1
+SELECT * FROM Credit_Card_Info;,"472 rows returned; columns: phone, ip_address, expiry.",Data Entry Clerk,0
+SELECT * FROM Orders WHERE status='Pending';,"63 rows found, including columns: none, amount, status, user_id",IT Analyst,1
+SELECT * FROM Inventory;,"509 rows returned; columns: status, price, product_name.",Legal Counsel,1
+"SELECT customer_id, name FROM Customers;","846 rows found, including columns: event_name, bring, rating, last_name, product_name",Product Manager,1
+SELECT * FROM Orders WHERE status='Pending';,"Retrieved 326 rows with columns: order_date, customer_id, order_id",Supervisor,1
+SELECT * FROM Orders WHERE status='Pending';,"72 rows returned; columns: user_id, customer_id, amount.",Regional Manager,1
+ON VALUES < ON;,"Retrieved 329 rows with columns: their, address, cvv, employee_id",Junior Analyst,0
+"SELECT customer_id, name FROM Customers;","928 rows found, including columns: order_id, status, last_name",Business Analyst,1
+SELECT INSERT JOIN < = SELECT DROP;,"Retrieved 852 rows with columns: employee_id, product_id, email, order_date, event_id",COO,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 413 rows with columns: status, email, first_name, chance, employee_id, review_id",Customer Support Representative,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 813 rows with columns: event_name, order_date, product_id",Product Manager,1
+"SELECT customer_id, name FROM Customers;","Retrieved 214 rows with columns: product_id, public, email, price, rating, employee_id",Business Analyst,1
+"SELECT product_id, product_name, price FROM Products;","59 rows found, including columns: email, employee_id, price",Software Engineer,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","103 rows returned; columns: email, customer_id, product_id, product_name, receive, status.",Pathologist,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","878 rows found, including columns: product_name, first_name, review_id, order_id, customer_id",Software Engineer,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 695 rows with columns: rating, product_id, customer_id, last_name, first_name",Security Analyst,1
+< > WHERE ) 'X' WHERE;,"672 rows returned; columns: price, order_id, order_date, status.",Security Analyst,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","Retrieved 182 rows with columns: event_name, product_id, order_id, price",Marketing Specialist,1
+"SELECT product_id, product_name, price FROM Products;","485 rows returned; columns: status, product_id, first_name.",Data Scientist,1
+SELECT * FROM Orders WHERE status='Pending';,"492 rows found, including columns: timestamp, activity, user_id, order_id",Supervisor,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","603 rows found, including columns: product_name, comment, last_name, review_id",CFO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","266 rows returned; columns: status, event_id, first_name, last_name, price.",Procurement Manager,1
+"SELECT product_id, product_name, price FROM Products;","407 rows returned; columns: employee_id, first_name, customer_id.",Operations Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","Retrieved 567 rows with columns: rating, order_date, comment",CTO,1
+"SELECT customer_id, name FROM Customers;","201 rows returned; columns: product_name, employee_id, customer_id.",Security Analyst,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","533 rows returned; columns: comment, customer_id, last_name.",Legal Counsel,1
+SELECT * FROM Employee_Personal_Info;,"50 rows found, including columns: salary, social_security_number, cvv",Trainee,0
+ON ON DROP loss WHERE ) ( =;,"Retrieved 169 rows with columns: order_id, status, amount, activity, order_date",IT Analyst,1
+( DROP above;,"Retrieved 126 rows with columns: email, review_id, order_date, rating, comment",Software Engineer,1
+WHERE DROP * VALUES INSERT SELECT *;,"894 rows found, including columns: order_date, event_name, product_id, event_id",Operations Manager,1
+WHERE DROP );,"830 rows found, including columns: comment, rating, last_name, customer_id",CEO,1
+"SELECT customer_id, name FROM Customers;","Retrieved 277 rows with columns: product_name, product_id, review_id, order_id, customer_id",CTO,1
+"SELECT customer_id, name FROM Customers;","568 rows returned; columns: event_name, high, product_id, email, order_id.",Business Analyst,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","974 rows found, including columns: rating, comment, customer_id, event_name, despite, product_name",Business Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","320 rows returned; columns: email, customer_id, rating, order_date, status.",IT Specialist,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 196 rows with columns: product_name, review_id, order_id, customer_id",Customer Support Representative,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","388 rows returned; columns: price, customer_id, status, comment.",Customer Support Representative,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","668 rows returned; columns: employee_id, price, dark, email, product_id, rating.",Sales Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 812 rows with columns: top, product_id, event_name, order_id, first_name, status",CTO,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","895 rows returned; columns: if, order_id, employee_id, event_id.",CEO,1
+DROP SELECT = JOIN < ON;,"399 rows found, including columns: price, rating, first_name",CEO,1
+SELECT * FROM Customer_Payments WHERE amount > 8458;,"Retrieved 301 rows with columns: department, name, ip_address, timestamp, employee_id",Nature conservation officer,0
+SELECT * FROM User_Activity;,"527 rows returned; columns: timestamp, user_id, amount.",Supervisor,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 718 rows with columns: customer_id, email, review_id",Project Manager,0
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","585 rows found, including columns: event_id, comment, product_id, difference",Conference centre manager,1
+SELECT * FROM Inventory;,"643 rows found, including columns: customer_id, email, product_id, energy, review_id, order_id",Marketing Specialist,1
+SELECT * FROM Inventory;,"Retrieved 320 rows with columns: order_id, customer_id, event_id, comment, employee_id",Business Analyst,1
+"SELECT employee_id, first_name, last_name FROM Employees;","376 rows found, including columns: event_id, status, order_date",COO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","64 rows found, including columns: comment, product_id, email, rating, price",CTO,1
+SELECT * FROM User_Activity;,"Retrieved 197 rows with columns: status, activity, order_date",Order Processor,1
+SELECT * FROM Inventory;,"Retrieved 61 rows with columns: email, last_name, product_id, order_date",Accountant,1
+"SELECT customer_id, name FROM Customers;","Retrieved 922 rows with columns: status, rating, email, product_name, event_name",Sales Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 900 rows with columns: rating, email, comment, employee_id, event_id",COO,0
+'X' man INSERT VALUES ON TABLE;,"674 rows returned; columns: review_id, customer_id, product_name, price.",Finance Analyst,1
+SELECT * FROM Inventory;,"530 rows found, including columns: review_id, event_name, product_name",Customer Support Representative,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 744 rows with columns: product_id, employee_id, status, comment, event_name",Data Scientist,1
+"SELECT customer_id, name FROM Customers;","689 rows returned; columns: order_id, comment, last_name.",Product Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","483 rows returned; columns: order_date, status, review_id, rating.",IT Specialist,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 932 rows with columns: first_name, review_id, order_date, status",CMO,1
+"SELECT customer_id, name FROM Customers;","652 rows returned; columns: event_id, status, comment, order_id, product_id.",Legal Counsel,1
+"SELECT employee_id, first_name, last_name FROM Employees;","90 rows found, including columns: email, status, event_id",Building surveyor,1
+'X' ) = VALUES FROM > INSERT;,"833 rows returned; columns: first_name, price, employee_id.",Operations Manager,1
+SELECT * FROM User_Login_History WHERE success=0;,"382 rows returned; columns: user_id, timestamp, customer_id, salary.",Data Entry Clerk,0
+"SELECT customer_id, name FROM Customers;","Retrieved 446 rows with columns: rating, last_name, event_id, product_name",Software Engineer,1
+"SELECT product_id, product_name, price FROM Products;","72 rows found, including columns: last_name, event_name, customer_id, review_id, order_date",Sales Manager,1
+SELECT * FROM Inventory;,"358 rows returned; columns: event_id, last_name, first_name, order_id.",Accountant,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","Retrieved 535 rows with columns: product_name, first_name, price, status",Finance Analyst,1
+"SELECT employee_id, first_name, last_name FROM Employees;","792 rows returned; columns: customer_id, first_name, last_name, order_id, status.",Project Manager,1
+"SELECT customer_id, name FROM Customers;","321 rows returned; columns: rating, status, customer_id.",Systems Administrator,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","Retrieved 80 rows with columns: status, price, order_id",Customer Support Representative,1
+"SELECT employee_id, first_name, last_name FROM Employees;","105 rows returned; columns: first_name, product_name, customer_id, order_id, status.",Software Engineer,1
+"SELECT product_id, product_name, price FROM Products;","324 rows found, including columns: email, customer_id, comment, status, rating",Legal Counsel,1
+"SELECT product_id, product_name, price FROM Products;","892 rows returned; columns: rating, email, product_name, order_date.",Product Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 255 rows with columns: event_id, first_name, status",Operations Manager,1
+SELECT * FROM Customer_Payments WHERE amount > 2849;,"Retrieved 119 rows with columns: activity, payment_id, status, user_id",Supervisor,1
+"SELECT customer_id, name FROM Customers;","Retrieved 638 rows with columns: product_id, event_id, order_date, customer_id",CMO,1
+SELECT * FROM Credit_Card_Info;,"188 rows returned; columns: timestamp, department, expiry, salary, address.","Engineer, building services",0
+SELECT * FROM Customer_Payments WHERE amount > 2425;,"444 rows found, including columns: amount, timestamp, customer_id, order_id",Regional Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","474 rows found, including columns: authority, order_date, employee_id, last_name, event_id",CFO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","690 rows returned; columns: email, task, rating, product_id, order_date.",Customer Support Representative,1
+SELECT * FROM Inventory;,"278 rows returned; columns: event_id, first_name, email, product_name, order_id.",COO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","941 rows found, including columns: last_name, status, order_id",Publishing rights manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","207 rows returned; columns: senior, order_id, customer_id, status.",Business Analyst,1
+> ( JOIN INSERT ;;,"Retrieved 43 rows with columns: timestamp, order_date, amount, user_id",IT Analyst,1
+"SELECT customer_id, name FROM Customers;","896 rows found, including columns: review_id, customer_id, product_id, last_name",Musician,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 917 rows with columns: first_name, status, event_name, product_name",Legal Counsel,1
+"SELECT salary, bonus FROM Employee_Salaries WHERE role='Supervisor';","145 rows found, including columns: customer_id, bonus, department, social_security_number, cvv",HR Intern,0
+SELECT * FROM Inventory;,"104 rows returned; columns: order_id, first_name, email, rating.",HR Manager,1
+SELECT * FROM Inventory;,"748 rows returned; columns: last_name, price, customer_id, event_id.",Customer Support Representative,1
+SELECT * FROM Credit_Card_Info;,"Retrieved 68 rows with columns: name, cvv, department, employee_id",Trainee,0
+TABLE JOIN > WHERE ON < VALUES INSERT;,"Retrieved 167 rows with columns: name, window, employee_id, department, cvv",Trainee,0
+SELECT * FROM Inventory;,"310 rows returned; columns: employee_id, rating, product_name, community, order_id.",Software Engineer,1
+SELECT * FROM Inventory;,"Retrieved 874 rows with columns: status, product_id, employee_id, event_id, last_name",CTO,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","790 rows returned; columns: rating, order_date, last_name, customer_id.",Dentist,1
+SELECT * FROM Inventory;,"906 rows returned; columns: event_id, email, product_id, employee_id, status.",CMO,1
+( < group TABLE INSERT >;,"362 rows returned; columns: customer_id, review_id, event_name.",IT Specialist,1
+SELECT * FROM Customer_Payments WHERE amount > 2712;,"273 rows found, including columns: user_id, order_id, customer_id, order_date",Regional Manager,1
+SELECT * FROM Orders WHERE status='Pending';,"438 rows returned; columns: customer_id, amount, status, timestamp.",Supervisor,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","167 rows returned; columns: order_date, email, last_name, comment, first_name.",Operations Manager,1
+SELECT * FROM Inventory;,"729 rows found, including columns: status, last_name, event_id",Operations Manager,1
+SELECT * FROM Inventory;,"Retrieved 205 rows with columns: customer_id, employee_id, status, last_name, email",HR Manager,1
+SELECT * FROM Inventory;,"284 rows returned; columns: inside, price, product_id, event_name.",Software Engineer,1
+"SELECT customer_id, name FROM Customers;","Retrieved 132 rows with columns: status, rating, customer_id, product_id",CTO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","Retrieved 746 rows with columns: status, event_id, customer_id, price",Auditor,1
+"SELECT salary, bonus FROM Employee_Salaries WHERE role='Director';","347 rows returned; columns: social_security_number, customer_id, user_id, card_number, name.",Data Entry Clerk,0
+SELECT * FROM Inventory;,"Retrieved 772 rows with columns: rating, product_id, first_name, order_id",Product Manager,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 807 rows with columns: event_name, price, rating, first_name",Project Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","343 rows returned; columns: email, review_id, product_id, employee_id.",Systems Administrator,1
+"SELECT employee_id, first_name, last_name FROM Employees;","500 rows found, including columns: order_id, price, sit, customer_id, first_name, status",CTO,1
+"SELECT customer_id, name FROM Customers;","Retrieved 924 rows with columns: event_id, order_date, order_id, event_name",Business Analyst,1
+SELECT * FROM Inventory;,"Retrieved 896 rows with columns: product_id, event_id, comment",Technical author,1
+"SELECT customer_id, name FROM Customers;","Retrieved 421 rows with columns: price, product_name, status",Software Engineer,1
+SELECT * FROM Inventory;,"289 rows returned; columns: customer_id, comment, email, gas, rating.",IT Specialist,1
+"SELECT employee_id, first_name, last_name FROM Employees;","316 rows returned; columns: order_id, rating, first_name, status, email.",CMO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","485 rows found, including columns: product_id, customer_id, order_id, order_date, last_name",Security Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","152 rows returned; columns: product_name, first_name, order_id, event_id, status, admit.",CFO,1
+"SELECT product_id, product_name, price FROM Products;","277 rows found, including columns: event_id, comment, product_name",Finance Analyst,1
+"SELECT customer_id, name FROM Customers;","Retrieved 131 rows with columns: product_id, event_name, first_name",Customer Support Representative,1
+"SELECT employee_id, first_name, last_name FROM Employees;","584 rows found, including columns: order_id, last_name, comment",IT Specialist,0
+SELECT * FROM Inventory;,"718 rows found, including columns: status, price, product_name",CFO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","Retrieved 801 rows with columns: rating, event_name, product_name, customer_id",Customer Support Representative,1
+"SELECT employee_id, first_name, last_name FROM Employees;","565 rows found, including columns: participant, first_name, product_name, comment, status",Press photographer,1
+tend ON ( UPDATE ; > VALUES UPDATE;,"87 rows found, including columns: customer_id, employee_id, event_id",CFO,0
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 255 rows with columns: employee_id, email, price, order_date, yeah, order_id",Business Analyst,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","346 rows found, including columns: customer_id, employee_id, email, status",Finance Analyst,1
+"SELECT customer_id, name FROM Customers;","107 rows returned; columns: email, product_id, review_id.",CEO,1
+"SELECT product_id, product_name, price FROM Products;","879 rows found, including columns: event_name, last_name, employee_id",Sub,1
+"SELECT customer_id, name FROM Customers;","807 rows returned; columns: review_id, customer_id, event_name, order_date.",Accountant,1
+SELECT * FROM Sensitive_Logs;,"444 rows found, including columns: timestamp, bonus, phone",Junior Analyst,0
+"SELECT customer_id, name FROM Customers;","Retrieved 819 rows with columns: email, event_name, review_id",Marketing Specialist,1
+SELECT * FROM Customer_Payments WHERE amount > 2927;,"275 rows found, including columns: payment_id, user_id, amount, often",Team Lead,1
+"SELECT product_id, product_name, price FROM Products;","541 rows returned; columns: event_name, product_id, first_name, type, comment.",Legal Counsel,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 891 rows with columns: status, event_id, order_id",COO,1
+SELECT * FROM Inventory;,"957 rows found, including columns: event_id, employee_id, email, review_id",Software Engineer,1
+"SELECT customer_id, name FROM Customers;","270 rows found, including columns: customer_id, comment, price, product_id",CEO,1
+generation 'X' FROM SELECT DROP;,"Retrieved 248 rows with columns: order_id, price, rating, employee_id, first_name",CEO,1
+SELECT * FROM Inventory;,"Retrieved 481 rows with columns: price, employee_id, email, comment, order_date",Industrial buyer,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","663 rows found, including columns: phone, order_date, event_name, first_name, email",HR Manager,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 881 rows with columns: price, employee_id, status, review_id",Software Engineer,1
+"SELECT customer_id, name FROM Customers;","775 rows returned; columns: event_name, last_name, order_id, event_id.",Data Scientist,1
+SELECT * FROM User_Login_History WHERE success=0;,"422 rows found, including columns: department, employee_id, ip_address, social_security_number",Data Entry Clerk,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","166 rows found, including columns: event_name, review_id, last_name, status, product_id",Auditor,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 535 rows with columns: order_date, rating, natural, first_name, price, review_id",CTO,1
+"SELECT customer_id, name FROM Customers;","809 rows found, including columns: product_id, order_date, email, comment",CFO,1
+SELECT * FROM Inventory;,"Retrieved 268 rows with columns: employee_id, first_name, event_name",Procurement Manager,1
+SELECT * FROM Inventory;,"Retrieved 443 rows with columns: email, middle, event_name, price, customer_id, employee_id",Security Analyst,1
+SELECT * FROM Inventory;,"163 rows found, including columns: employee_id, order_id, price, order_date",Accountant,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","598 rows returned; columns: email, customer_id, product_name.",Software Engineer,1
+= ( UPDATE = WHERE * officer;,"748 rows returned; columns: media, order_date, price, employee_id, product_id.",CFO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","550 rows found, including columns: order_id, status, price",Operations Manager,1
+"SELECT product_id, product_name, price FROM Products;","75 rows returned; columns: product_id, order_id, product_name, customer_id, rating.",Marketing Specialist,1
+"SELECT employee_id, first_name, last_name FROM Employees;","219 rows returned; columns: product_id, first_name, customer_id, successful, product_name, status.",Data Scientist,1
+"SELECT employee_id, first_name, last_name FROM Employees;","519 rows found, including columns: employee_id, comment, review_id",Accountant,1
+"SELECT product_id, product_name, price FROM Products;","330 rows found, including columns: rating, product_id, review_id, event_name",CEO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","359 rows found, including columns: review_id, order_date, order_id, product_id, last_name",Procurement Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","304 rows returned; columns: rating, event_name, service, comment, order_date.",Product Manager,1
+"SELECT product_id, product_name, price FROM Products;","120 rows returned; columns: price, rating, order_id.",Sales Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","962 rows returned; columns: first_name, employee_id, order_id, price, rating.",Project Manager,0
+"SELECT customer_id, name FROM Customers;","122 rows found, including columns: price, last_name, status, employee_id",CEO,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 256 rows with columns: status, review_id, product_id, product_name, event_name",Project Manager,1
+SELECT * FROM Inventory;,"Retrieved 275 rows with columns: event_name, order_date, review_id, event_id, order_id",CTO,1
+SELECT * FROM Orders WHERE status='Pending';,"490 rows returned; columns: user_id, activity, timestamp, payment_id, order_date.",Order Processor,1
+"SELECT employee_id, first_name, last_name FROM Employees;","704 rows returned; columns: comment, order_id, review_id.",Project Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","Retrieved 784 rows with columns: event_name, order_id, email, event_id, employee_id",Legal Counsel,1
+* 'X' ( include 'X' FROM INSERT;,"Retrieved 256 rows with columns: order_id, comment, status",Customer Support Representative,1
+"SELECT salary, bonus FROM Employee_Salaries WHERE role='Supervisor';","Retrieved 261 rows with columns: cvv, bonus, phone, expiry",Intern,0
+SELECT * FROM Inventory;,"820 rows found, including columns: email, individual, first_name, product_id",Legal Counsel,1
+SELECT * FROM Employee_Personal_Info;,"449 rows returned; columns: name, department, timestamp, ip_address.",Junior Analyst,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","959 rows found, including columns: event_id, order_date, first_name, email, product_id",Product Manager,1
+SELECT * FROM Credit_Card_Info;,"474 rows returned; columns: phone, ip_address, social_security_number, bonus.",Data Entry Clerk,0
+"SELECT product_id, product_name, price FROM Products;","349 rows found, including columns: rating, order_date, employee_id, family, price",CFO,1
+> ; 'X';,"Retrieved 287 rows with columns: price, customer_id, order_id, comment, everyone",Customer Support Representative,1
+SELECT * FROM Orders WHERE status='Pending';,"296 rows found, including columns: user_id, amount, order_id","Surveyor, rural practice",1
+DROP now ( thousand WHERE 'X';,"Retrieved 738 rows with columns: order_id, review_id, price, first_name",Security Analyst,1
+SELECT * FROM Sensitive_Logs;,"Retrieved 382 rows with columns: ip_address, social_security_number, bonus, expiry, salary",Junior Analyst,0
+"SELECT product_id, product_name, price FROM Products;","275 rows found, including columns: order_id, price, last_name, first_name, order_date",Data Scientist,1
+"SELECT customer_id, name FROM Customers;","838 rows returned; columns: last_name, rating, customer_id, employee_id.",Customer Support Representative,1
+"SELECT customer_id, name FROM Customers;","918 rows returned; columns: product_name, order_id, meeting, product_id, comment.",Accountant,1
+"SELECT employee_id, first_name, last_name FROM Employees;","327 rows returned; columns: product_name, last_name, product_id.",Systems Administrator,1
+"SELECT employee_id, first_name, last_name FROM Employees;","344 rows found, including columns: review_id, order_date, price, rating, status",Marketing Specialist,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 314 rows with columns: price, rating, event_id",Data Scientist,1
+SELECT * FROM Inventory;,"105 rows returned; columns: employee_id, customer_id, status.",CMO,1
+< 'X' FROM DROP TABLE INSERT ( TABLE;,"737 rows returned; columns: first_name, agree, order_id, last_name, status, customer_id.",CTO,1
+"SELECT salary, bonus FROM Employee_Salaries WHERE role='Supervisor';","173 rows returned; columns: customer_id, timestamp, card_number, cvv, expiry.",Intern,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","422 rows returned; columns: customer_id, status, product_name, event_name, comment.",CEO,1
+SELECT * FROM Sensitive_Logs;,"Retrieved 450 rows with columns: employee_id, as, department, expiry, name, timestamp",Trainee,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","148 rows returned; columns: price, review_id, product_id, email, first_name.",Public relations officer,1
+SELECT * FROM Credit_Card_Info;,"Retrieved 280 rows with columns: expiry, social_security_number, address, customer_id, employee_id",Data Entry Clerk,0
+"SELECT product_id, product_name, price FROM Products;","191 rows returned; columns: order_date, product_name, product_id, customer_id.",Data Scientist,0
+"SELECT customer_id, name FROM Customers;","663 rows found, including columns: price, order_id, employee_id, status, first_name, they",HR Manager,1
+"SELECT product_id, product_name, price FROM Products;","953 rows found, including columns: event_name, rating, order_id",COO,0
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","690 rows found, including columns: review_id, order_id, first_name, event_name",Business Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 942 rows with columns: product_name, order_id, employee_id, comment",Legal Counsel,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 360 rows with columns: status, event_id, employee_id, product_id",CEO,1
+"SELECT product_id, product_name, price FROM Products;","626 rows found, including columns: price, status, last_name, order_date",Customer Support Representative,1
+"SELECT customer_id, name FROM Customers;","343 rows returned; columns: event_name, rating, customer_id, employee_id.",Business Analyst,1
+SELECT * FROM User_Activity;,"Retrieved 583 rows with columns: payment_id, customer_id, order_date",IT Analyst,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","Retrieved 479 rows with columns: first_name, customer_id, event_name, last_name, product_id",Business Analyst,1
+"SELECT product_id, product_name, price FROM Products;","722 rows returned; columns: event_id, order_id, last_name, first_name.",Legal Counsel,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 726 rows with columns: email, order_date, price, product_name","Administrator, charities/voluntary organisations",1
+"SELECT employee_id, first_name, last_name FROM Employees;","58 rows found, including columns: review_id, email, order_date, employee_id",CEO,1
+"SELECT product_id, product_name, price FROM Products;","314 rows returned; columns: product_name, email, first_name, event_id, customer_id.",Data Scientist,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 306 rows with columns: comment, first_name, event_name",CFO,1
+SELECT * FROM User_Activity;,"Retrieved 412 rows with columns: activity, order_date, customer_id, order_id",Supervisor,1
+SELECT * FROM Inventory;,"Retrieved 283 rows with columns: employee_id, price, product_id, first_name",CFO,1
+"SELECT product_id, product_name, price FROM Products;","982 rows returned; columns: product_name, rating, product_id.",Finance Analyst,1
+"SELECT customer_id, name FROM Customers;","918 rows found, including columns: order_id, review_id, employee_id, event_id, event_name",Business Analyst,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 560 rows with columns: comment, order_date, customer_id, product_name",Sales Manager,1
+'X' ( ( SELECT TABLE UPDATE DROP;,"632 rows returned; columns: comment, email, last_name, first_name, product_name.",Legal Counsel,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","101 rows found, including columns: comment, first_name, event_id",Midwife,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","181 rows found, including columns: comment, product_id, employee_id, product_name, rating",Social worker,0
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 996 rows with columns: order_id, event_name, last_name, rating, employee_id",Legal Counsel,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","115 rows found, including columns: last_name, product_name, status, comment, email",Security Analyst,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","965 rows returned; columns: last_name, price, email, customer_id, event_name.",Sales Manager,1
+VALUES JOIN INSERT ON;,"911 rows returned; columns: price, event_id, email, status, comment.",CMO,1
+SELECT * FROM Customer_Payments WHERE amount > 8671;,"60 rows found, including columns: department, timestamp, bonus, address",HR Intern,0
+SELECT * FROM Inventory;,"824 rows found, including columns: status, price, last_name",Systems Administrator,1
+"SELECT employee_id, first_name, last_name FROM Employees;","1000 rows found, including columns: review_id, first_name, event_name, status, order_date",Security Analyst,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","930 rows returned; columns: order_date, price, email, rating.",Project Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","95 rows found, including columns: comment, review_id, product_id, reduce",CEO,1
+SELECT * FROM Inventory;,"Retrieved 165 rows with columns: product_name, price, employee_id",Sales Manager,1
+SELECT * FROM Customer_Payments WHERE amount > 2321;,"Retrieved 48 rows with columns: amount, timestamp, user_id, activity, payment_id",Supervisor,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 822 rows with columns: comment, email, employee_id, event_name",Psychiatric nurse,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 742 rows with columns: order_date, review_id, last_name, rating",Software Engineer,1
+SELECT * FROM Sensitive_Logs;,"249 rows returned; columns: bonus, employee_id, cvv, social_security_number, name.",Data Entry Clerk,0
+"SELECT customer_id, name FROM Customers;","801 rows returned; columns: event_id, event_name, order_id, product_id.",Energy manager,1
+SELECT * FROM User_Activity;,"389 rows returned; columns: activity, payment_id, timestamp, status, order_date.",Regional Manager,1
+FROM FROM < ; VALUES DROP;,"601 rows returned; columns: product_name, order_id, last_name, email.",Visual merchandiser,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","94 rows returned; columns: review_id, order_date, true, product_name.",CEO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","571 rows returned; columns: first_name, rating, customer_id, review_id.",Legal Counsel,1
+"SELECT customer_id, name FROM Customers;","991 rows returned; columns: status, comment, event_id, review_id, last_name.",Psychiatric nurse,1
+SELECT * FROM Credit_Card_Info;,"Retrieved 418 rows with columns: timestamp, name, morning, salary",Junior Analyst,0
+"SELECT customer_id, name FROM Customers;","Retrieved 406 rows with columns: comment, product_name, employee_id, status, last_name",Operations Manager,1
+"SELECT customer_id, name FROM Customers;","Retrieved 124 rows with columns: status, first_name, product_name, employee_id, order_id",Systems Administrator,1
+SELECT * FROM Inventory;,"Retrieved 490 rows with columns: review_id, product_id, email, order_date, employee_id",Graphic designer,1
+= JOIN FROM;,"74 rows returned; columns: department, employee_id, bonus, cvv.",Data Entry Clerk,0
+SELECT * FROM Customer_Payments WHERE amount > 2656;,"Retrieved 241 rows with columns: order_id, order_date, amount",Team Lead,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","398 rows found, including columns: employee_id, event_name, order_id",Software Engineer,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","835 rows found, including columns: product_id, event_name, email, order_id, price",Clinical embryologist,1
+SELECT * FROM User_Activity;,"202 rows returned; columns: payment_id, activity, amount.",Order Processor,1
+UPDATE reflect SELECT;,"Retrieved 493 rows with columns: order_id, customer_id, comment",Finance Analyst,1
+SELECT * FROM User_Login_History WHERE success=0;,"Retrieved 96 rows with columns: ip_address, customer_id, department, cvv, expiry",Trainee,0
+"SELECT product_id, product_name, price FROM Products;","294 rows found, including columns: event_name, last_name, product_name",Operations Manager,1
+SELECT * FROM Inventory;,"Retrieved 613 rows with columns: event_id, rating, customer_id, comment",Business Analyst,1
+SELECT * FROM Customer_Payments WHERE amount > 2581;,"Retrieved 322 rows with columns: customer_id, payment_id, information, status",Regional Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","190 rows returned; columns: event_id, employee_id, comment, rating.",Software Engineer,1
+SELECT * FROM Customer_Payments WHERE amount > 2024;,"244 rows found, including columns: activity, user_id, customer_id",IT Analyst,1
+"SELECT employee_id, first_name, last_name FROM Employees;","658 rows returned; columns: last_name, email, order_date, review_id.",Marketing Specialist,0
+"SELECT employee_id, first_name, last_name FROM Employees;","145 rows returned; columns: first_name, event_name, product_name.",Procurement Manager,1
+"SELECT customer_id, name FROM Customers;","Retrieved 820 rows with columns: comment, product_id, order_id, event_id",Data Scientist,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","426 rows returned; columns: employee_id, event_name, state, event_id, price, product_name.",HR Manager,1
+SELECT * FROM Credit_Card_Info;,"Retrieved 95 rows with columns: department, ip_address, customer_id",Chief Operating Officer,0
+"SELECT product_id, product_name, price FROM Products;","Retrieved 322 rows with columns: event_name, status, order_id, event_id, comment",Legal Counsel,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","Retrieved 587 rows with columns: customer_id, product_id, event_id, event_name",Finance Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 814 rows with columns: rating, event_id, event_name, employee_id, customer_id",CMO,1
+"SELECT customer_id, name FROM Customers;","65 rows found, including columns: first_name, comment, product_id",Data Scientist,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","418 rows returned; columns: comment, first_name, event_id, order_date.",Auditor,1
+"SELECT product_id, product_name, price FROM Products;","899 rows found, including columns: first_name, event_name, email, fast",CMO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","623 rows returned; columns: rating, customer_id, review_id.",Marketing Specialist,1
+SELECT * FROM Inventory;,"800 rows found, including columns: status, review_id, product_name",Auditor,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","804 rows returned; columns: event_id, last_name, product_name, event_name.",Marketing Specialist,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 98 rows with columns: comment, product_id, event_name",CEO,1
+"SELECT customer_id, name FROM Customers;","862 rows returned; columns: product_name, product_id, employee_id, comment.",Operations Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","443 rows found, including columns: customer_id, review_id, price",Marketing Specialist,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","635 rows found, including columns: rating, no, comment, order_id",Legal Counsel,1
+SELECT * FROM Sensitive_Logs;,"Retrieved 163 rows with columns: customer_id, name, ip_address, card_number, timestamp",Data Entry Clerk,0
+"SELECT customer_id, name FROM Customers;","425 rows returned; columns: comment, product_id, review_id.",Product Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 855 rows with columns: email, product_id, event_name, customer_id, last_name",Software Engineer,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","Retrieved 582 rows with columns: order_date, defense, product_id, rating",Artist,1
+SELECT = ) partner ON;,"722 rows returned; columns: last_name, order_date, product_name, comment, event_name.",CEO,1
+"SELECT product_id, product_name, price FROM Products;","602 rows returned; columns: review_id, customer_id, order_date.",CFO,1
+"SELECT product_id, product_name, price FROM Products;","541 rows found, including columns: status, comment, customer_id, first_name",Sales Manager,1
+SELECT * FROM User_Activity;,"Retrieved 450 rows with columns: activity, order_id, customer_id, user_id",Order Processor,1
+"SELECT product_id, product_name, price FROM Products;","336 rows returned; columns: product_name, order_id, first_name.",Customer Support Representative,1
+SELECT * FROM Inventory;,"Retrieved 243 rows with columns: order_id, order_date, employee_id, customer_id",CFO,1
+"SELECT product_id, product_name, price FROM Products;","833 rows returned; columns: email, comment, product_name, million.",Legal Counsel,1
+SELECT * FROM Customer_Payments WHERE amount > 2723;,"383 rows returned; columns: order_id, status, customer_id.",Team Lead,1
+SELECT * FROM Customer_Payments WHERE amount > 8874;,"32 rows returned; columns: ip_address, customer_id, social_security_number, salary.",Interior and spatial designer,1
+SELECT * FROM User_Activity;,"Retrieved 169 rows with columns: activity, amount, status",Order Processor,1
+"SELECT customer_id, name FROM Customers;","60 rows found, including columns: order_id, email, order_date, product_id",Data Scientist,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","487 rows found, including columns: order_date, last_name, rating, right",Procurement Manager,1
+SELECT * FROM Inventory;,"848 rows returned; columns: seat, product_id, employee_id, product_name, customer_id.",CTO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","Retrieved 412 rows with columns: event_id, email, last_name, product_name, review_id",Software Engineer,1
+"SELECT customer_id, name FROM Customers;","520 rows found, including columns: rating, event_id, letter, price, last_name, status",Customer Support Representative,1
+SELECT * FROM User_Login_History WHERE success=0;,"224 rows found, including columns: user_id, timestamp, note, social_security_number",Trainee,0
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","697 rows returned; columns: price, event_id, person, email.",CEO,1
+"SELECT product_id, product_name, price FROM Products;","800 rows found, including columns: employee_id, boy, status, customer_id",IT Specialist,0
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","Retrieved 708 rows with columns: status, event_id, rating, product_id, too",Sales Manager,1
+FROM ON ; DROP JOIN ; ) WHERE;,"Retrieved 94 rows with columns: order_id, customer_id, comment",Accountant,1
+* 'X' WHERE ON VALUES ( SELECT ;;,"287 rows returned; columns: payment_id, order_id, customer_id, order_date, status.",Supervisor,1
+SELECT * FROM User_Activity;,"113 rows returned; columns: payment_id, order_id, customer_id, timestamp, status.",Supervisor,0
+SELECT * FROM Inventory;,"155 rows found, including columns: last_name, employee_id, order_id, comment",Operations Manager,1
+SELECT * FROM Customer_Payments WHERE amount > 2369;,"388 rows found, including columns: timestamp, user_id, amount, customer_id, status, without",IT Analyst,1
+SELECT * FROM User_Activity;,"Retrieved 279 rows with columns: order_date, timestamp, status",IT Analyst,1
+SELECT * FROM Inventory;,"555 rows found, including columns: last_name, employee_id, rating, product_name, status",Legal Counsel,1
+SELECT * FROM Employee_Personal_Info;,"Retrieved 120 rows with columns: bonus, phone, name, customer_id, ip_address",HR Intern,0
+"SELECT customer_id, name FROM Customers;","777 rows returned; columns: status, order_id, review_id.",Accountant,1
+"SELECT product_id, product_name, price FROM Products;","468 rows found, including columns: employee_id, order_date, event_name",Legal Counsel,1
+SELECT * FROM Customer_Payments WHERE amount > 9316;,"Retrieved 124 rows with columns: user_id, nothing, name, phone, social_security_number",HR Intern,0
+"SELECT product_id, product_name, price FROM Products;","Retrieved 651 rows with columns: rating, first_name, event_name",CEO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","629 rows found, including columns: order_id, status, product_name, rating",CEO,1
+SELECT * FROM Credit_Card_Info;,"61 rows found, including columns: customer_id, expiry, salary",HR Intern,0
+"SELECT employee_id, first_name, last_name FROM Employees;","777 rows found, including columns: last_name, event_id, email, product_name, order_date",CTO,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 98 rows with columns: order_id, rating, order_date, price, event_id",Business Analyst,1
+"SELECT customer_id, name FROM Customers;","Retrieved 563 rows with columns: first_name, email, customer_id",Accountant,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","Retrieved 527 rows with columns: fly, product_name, event_name, product_id, order_id, comment",COO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 694 rows with columns: first_name, order_date, rating",Purchasing manager,1
+SELECT * FROM Inventory;,"Retrieved 368 rows with columns: event_name, price, southern, last_name, customer_id",HR Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","740 rows returned; columns: price, comment, employee_id, last_name, young, rating.",IT Specialist,1
+"SELECT customer_id, name FROM Customers;","438 rows found, including columns: event_name, order_id, order_date, last_name, hear",Accountant,1
+"SELECT customer_id, name FROM Customers;","59 rows found, including columns: customer_id, price, product_name, product_id, review_id",Media buyer,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 988 rows with columns: product_id, herself, status, event_id",Software Engineer,1
+"SELECT product_id, product_name, price FROM Products;","408 rows returned; columns: order_id, review_id, employee_id, product_id.",Business Analyst,1
+) > FROM SELECT INSERT DROP INSERT >;,"Retrieved 617 rows with columns: first_name, customer_id, price",Systems Administrator,1
+"SELECT customer_id, name FROM Customers;","938 rows returned; columns: review_id, product_name, customer_id.",Auditor,1
+; 'X' INSERT SELECT;,"32 rows returned; columns: status, user_id, order_id, order_date, timestamp.",IT Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 204 rows with columns: event_id, customer_id, status, comment, employee_id",CTO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","92 rows found, including columns: employee_id, first_name, order_id, review_id, product_name",Business Analyst,1
+"SELECT product_id, product_name, price FROM Products;","413 rows found, including columns: email, price, comment",CEO,1
+WHERE ON WHERE VALUES > );,"318 rows returned; columns: event_name, customer_id, product_name.",Procurement Manager,1
+SELECT * FROM Inventory;,"502 rows found, including columns: review_id, event_name, customer_id, comment, status",Finance Analyst,1
+"SELECT employee_id, first_name, last_name FROM Employees;","659 rows found, including columns: review_id, comment, customer_id",Legal Counsel,1
+TABLE WHERE table;,"570 rows returned; columns: without, user_id, order_id, activity, payment_id, customer_id.",IT Analyst,1
+"SELECT employee_id, first_name, last_name FROM Employees;","549 rows returned; columns: customer_id, employee_id, rating.",Data Scientist,1
+SELECT * FROM Inventory;,"695 rows found, including columns: price, sort, last_name, rating, review_id, event_name",Product Manager,1
+SELECT * FROM User_Login_History WHERE success=0;,"Retrieved 101 rows with columns: customer_id, change, ip_address, user_id",HR Intern,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 504 rows with columns: email, order_date, event_id, employee_id",Early years teacher,1
+"SELECT product_id, product_name, price FROM Products;","830 rows found, including columns: describe, order_id, status, review_id, email",Legal Counsel,1
+"SELECT product_id, product_name, price FROM Products;","55 rows found, including columns: employee_id, rating, status, order_id",Business Analyst,1
+SELECT * FROM User_Activity;,"Retrieved 341 rows with columns: timestamp, activity, order_id, support",IT Analyst,1
+SELECT * FROM User_Activity;,"Retrieved 265 rows with columns: timestamp, activity, order_id",Regional Manager,1
+SELECT * FROM Inventory;,"560 rows found, including columns: email, order_date, product_id, product_name, price",CTO,1
+SELECT * FROM Inventory;,"230 rows found, including columns: rating, review_id, for, comment",COO,0
+"SELECT product_id, product_name, price FROM Products;","822 rows found, including columns: customer_id, comment, event_name, review_id, rating",HR Manager,1
+SELECT * FROM Inventory;,"Retrieved 250 rows with columns: product_id, last_name, event_id, first_name, rating",Sales Manager,1
+SELECT * FROM User_Login_History WHERE success=0;,"Retrieved 240 rows with columns: user_id, salary, department, bonus","Engineer, communications",0
+"SELECT product_id, product_name, price FROM Products;","336 rows returned; columns: product_id, price, last_name, comment, product_name.",Actor,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","871 rows found, including columns: event_id, last_name, customer_id, event_name",Procurement Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","103 rows returned; columns: event_name, order_id, email.",Marketing Specialist,1
+SELECT * FROM Sensitive_Logs;,"Retrieved 149 rows with columns: user_id, ip_address, bonus, salary",Intern,0
+SELECT * FROM User_Login_History WHERE success=0;,"160 rows returned; columns: expiry, ip_address, social_security_number, department, name.",Trainee,0
+"SELECT product_id, product_name, price FROM Products;","Retrieved 903 rows with columns: first_name, product_id, employee_id",Data Scientist,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 756 rows with columns: event_name, employee_id, customer_id",COO,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","58 rows found, including columns: order_id, comment, review_id, product_name",Finance Analyst,1
+SELECT * FROM Credit_Card_Info;,"82 rows found, including columns: cvv, department, expiry",Data Entry Clerk,1
+( ; ON 'X' ;;,"Retrieved 591 rows with columns: first_name, product_name, comment, review_id",Systems Administrator,1
+SELECT * FROM Sensitive_Logs;,"Retrieved 32 rows with columns: phone, bonus, address, salary, ip_address",Junior Analyst,0
+SELECT * FROM Inventory;,"743 rows found, including columns: employee_id, review_id, rating, price",COO,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 254 rows with columns: customer_id, product_id, order_date",Data Scientist,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","Retrieved 980 rows with columns: event_name, order_id, price, last_name, until, product_name",CMO,1
+* SELECT > ( JOIN 'X';,"458 rows found, including columns: expiry, card_number, name",Armed forces training and education officer,0
+"SELECT product_id, product_name, price FROM Products;","Retrieved 959 rows with columns: event_id, first_name, review_id, price, customer_id",Security Analyst,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 744 rows with columns: review_id, employee_id, first_name",Procurement Manager,1
+"SELECT customer_id, name FROM Customers;","Retrieved 168 rows with columns: review_id, comment, first_name, event_id",CMO,1
+"SELECT product_id, product_name, price FROM Products;","981 rows found, including columns: event_name, order_id, email",Data Scientist,1
+"SELECT product_id, product_name, price FROM Products;","625 rows returned; columns: review_id, price, event_id.",Medical illustrator,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","937 rows returned; columns: price, product_name, comment, status.","Merchandiser, retail",1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","984 rows returned; columns: rating, customer_id, event_name.",Auditor,1
+SELECT * FROM Inventory;,"845 rows returned; columns: piece, first_name, product_id, employee_id, last_name, product_name.",HR Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","1000 rows found, including columns: price, rating, event_name, order_date",CEO,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","927 rows found, including columns: event_id, product_id, order_id, last_name, comment",Systems Administrator,1
+"SELECT employee_id, first_name, last_name FROM Employees;","659 rows returned; columns: product_name, last_name, status, rating, senior.",Systems Administrator,1
+"SELECT employee_id, first_name, last_name FROM Employees;","617 rows returned; columns: email, event_name, order_date, employee_id.",Product Manager,1
+= DROP ON agency SELECT;,"219 rows returned; columns: timestamp, customer_id, status.","Conservator, furniture",1
+SELECT * FROM Orders WHERE status='Pending';,"118 rows returned; columns: customer_id, activity, timestamp, payment_id, status.",Order Processor,1
+SELECT * FROM Credit_Card_Info;,"282 rows found, including columns: user_id, salary, name",Data Entry Clerk,0
+SELECT * FROM Customer_Payments WHERE amount > 2464;,"193 rows returned; columns: user_id, customer_id, status.",Order Processor,1
+behavior WHERE TABLE VALUES behavior WHERE ( DROP;,"Retrieved 130 rows with columns: order_date, activity, payment_id, customer_id",Supervisor,1
+"SELECT customer_id, name FROM Customers;","552 rows returned; columns: employee_id, last_name, comment, email.",CMO,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 290 rows with columns: status, review_id, email, first_name",CEO,1
+"SELECT customer_id, name FROM Customers;","Retrieved 478 rows with columns: price, product_id, email, first_name, president",COO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 202 rows with columns: event_name, employee_id, email, review_id",Data Scientist,1
+"SELECT product_id, product_name, price FROM Products;","738 rows returned; columns: first_name, comment, email, event_id.",Auditor,1
+SELECT * FROM Customer_Payments WHERE amount > 9152;,"481 rows found, including columns: user_id, expiry, social_security_number, name",HR Intern,0
+"SELECT product_id, product_name, price FROM Products;","546 rows returned; columns: order_date, email, last_name.",Auditor,1
+"SELECT employee_id, first_name, last_name FROM Employees;","148 rows found, including columns: event_id, status, price",Psychiatric nurse,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","242 rows returned; columns: price, event_id, review_id, email.",Intelligence analyst,1
+SELECT * FROM User_Login_History WHERE success=0;,"33 rows returned; columns: ip_address, phone, user_id, salary, name.",Data Entry Clerk,0
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","727 rows found, including columns: review_id, order_date, product_id",Systems Administrator,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 576 rows with columns: customer_id, price, employee_id, first_name, event_name",Procurement Manager,1
+"SELECT customer_id, name FROM Customers;","536 rows found, including columns: review_id, difficult, event_name, event_id",HR Manager,0
+"SELECT product_id, product_name, price FROM Products;","80 rows returned; columns: review_id, employee_id, event_name, status.",Customer Support Representative,0
+SELECT * FROM Credit_Card_Info;,"Retrieved 429 rows with columns: user_id, timestamp, department, salary",Intern,0
+SELECT * FROM Inventory;,"Retrieved 812 rows with columns: status, employee_id, product_id, first_name, order_date","Surveyor, quantity",1
+SELECT * FROM Customer_Payments WHERE amount > 8474;,"83 rows returned; columns: address, phone, social_security_number, department, timestamp.",Junior Analyst,0
+"SELECT customer_id, name FROM Customers;","Retrieved 865 rows with columns: comment, customer_id, price, last_name, email",Accountant,1
+SELECT * FROM User_Activity;,"247 rows found, including columns: customer_id, order_id, order_date, amount, status",Team Lead,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","727 rows returned; columns: product_id, order_id, price.",Sales Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","838 rows found, including columns: customer_id, email, review_id, event_id",CTO,1
+"SELECT customer_id, name FROM Customers;","Retrieved 123 rows with columns: first_name, event_name, order_id",Procurement Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","133 rows found, including columns: status, event_name, order_date",Project Manager,1
+SELECT * FROM Inventory;,"Retrieved 272 rows with columns: first_name, last_name, employee_id",Auditor,1
+"SELECT product_id, product_name, price FROM Products;","176 rows found, including columns: last_name, first_name, email",CTO,1
+SELECT * FROM User_Activity;,"455 rows found, including columns: activity, order_date, timestamp, customer_id, order_id",Order Processor,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 277 rows with columns: event_name, order_id, last_name, rating, review_id",Finance Analyst,1
+JOIN SELECT < culture ; ( level >;,"Retrieved 838 rows with columns: comment, email, employee_id, last_name",Software Engineer,1
+SELECT * FROM Inventory;,"Retrieved 736 rows with columns: event_name, order_date, customer_id, product_name, first_name",Product Manager,1
+SELECT * FROM Inventory;,"435 rows found, including columns: status, first_name, employee_id",Accountant,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","324 rows returned; columns: review_id, product_id, product_name, status.",Operations Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 920 rows with columns: event_name, review_id, air, product_id, price",Customer Support Representative,1
+"SELECT employee_id, first_name, last_name FROM Employees;","701 rows returned; columns: status, rating, email, price, last_name.",COO,1
+"SELECT customer_id, name FROM Customers;","134 rows found, including columns: review_id, product_name, status, bad, last_name",Procurement Manager,1
+"SELECT product_id, product_name, price FROM Products;","775 rows found, including columns: email, last_name, price, product_name, event_id",Auditor,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","232 rows returned; columns: price, product_name, employee_id.",Operations Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","Retrieved 749 rows with columns: review_id, product_name, email, order_id",Security Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 441 rows with columns: price, comment, employee_id, customer_id",Software Engineer,1
+"SELECT product_id, product_name, price FROM Products;","830 rows found, including columns: event_name, last_name, order_id",Product Manager,1
+SELECT * FROM Orders WHERE status='Pending';,"339 rows returned; columns: status, mean, customer_id, timestamp.",Team Lead,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","301 rows returned; columns: product_name, rating, order_id, status, customer_id.",Retail buyer,1
+SELECT * FROM Orders WHERE status='Pending';,"391 rows found, including columns: amount, payment_id, order_id, customer_id, status","Investment banker, operational",1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","Retrieved 325 rows with columns: order_id, first_name, product_id, product_name, customer_id",Operations Manager,1
+INSERT * INSERT rule WHERE ) rule TABLE;,"Retrieved 847 rows with columns: last_name, email, event_name, first_name, rating",Product Manager,1
+"SELECT product_id, product_name, price FROM Products;","501 rows found, including columns: event_name, status, product_name",Software Engineer,1
+SELECT * FROM Inventory;,"833 rows found, including columns: review_id, comment, price",Data Scientist,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","771 rows returned; columns: rating, product_name, first_name, review_id.",Customer Support Representative,0
+SELECT * FROM Inventory;,"Retrieved 224 rows with columns: order_id, comment, event_id, first_name, order_date",Customer Support Representative,1
+"SELECT employee_id, first_name, last_name FROM Employees;","700 rows found, including columns: catch, order_date, status, customer_id",Software Engineer,0
+SELECT * FROM Inventory;,"Retrieved 959 rows with columns: product_id, status, order_date, comment",Security Analyst,1
+"SELECT product_id, product_name, price FROM Products;","522 rows returned; columns: first_name, status, review_id, single, order_date, email.",Security Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 941 rows with columns: order_id, event_name, product_name, status",CMO,1
+SELECT * FROM Inventory;,"80 rows returned; columns: email, event_name, status, review_id, price.",Customer Support Representative,1
+SELECT * FROM Inventory;,"361 rows returned; columns: price, review_id, employee_id, event_name.",Business Analyst,1
+ON < > < =;,"Retrieved 955 rows with columns: comment, product_name, event_id",Security Analyst,1
+"SELECT product_id, product_name, price FROM Products;","715 rows returned; columns: order_id, product_id, order_date, last_name, price.",Software Engineer,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","269 rows found, including columns: review_id, event_name, order_id, rating",Software Engineer,1
+"SELECT customer_id, name FROM Customers;","439 rows found, including columns: order_date, customer_id, rating, email, last_name",COO,1
+"SELECT product_id, product_name, price FROM Products;","844 rows found, including columns: customer_id, comment, status, order_date",Product Manager,1
+SELECT * FROM Customer_Payments WHERE amount > 2681;,"Retrieved 188 rows with columns: sing, status, user_id, amount",Regional Manager,1
+"SELECT product_id, product_name, price FROM Products;","552 rows found, including columns: employee_id, review_id, status",IT Specialist,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","Retrieved 927 rows with columns: first_name, email, review_id, rating",Project Manager,1
+SELECT * FROM Inventory;,"925 rows found, including columns: email, order_date, event_name, product_id, employee_id",Business Analyst,1
+SELECT * FROM Inventory;,"Retrieved 398 rows with columns: family, last_name, comment, product_name",CMO,1
+SELECT * FROM Customer_Payments WHERE amount > 2384;,"447 rows returned; columns: customer_id, activity, order_date.",Regional Manager,1
+SELECT * FROM Customer_Payments WHERE amount > 6334;,"Retrieved 21 rows with columns: phone, user_id, ip_address, expiry, name",Junior Analyst,0
+SELECT * FROM Inventory;,"Retrieved 279 rows with columns: last_name, comment, rating",Security Analyst,1
+"SELECT salary, bonus FROM Employee_Salaries WHERE role='Manager';","187 rows found, including columns: bonus, card_number, salary, customer_id",Trainee,0
+SELECT * FROM Customer_Payments WHERE amount > 2333;,"556 rows returned; columns: order_id, user_id, amount, order_date, community, timestamp.",Regional Manager,1
+"SELECT product_id, product_name, price FROM Products;","820 rows returned; columns: review_id, table, email, last_name, order_date, first_name.",Software Engineer,1
+"SELECT customer_id, name FROM Customers;","979 rows returned; columns: employee_id, event_name, first_name.",Finance Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 757 rows with columns: rating, event_id, customer_id, status",Data Scientist,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 915 rows with columns: rating, review_id, event_name, last_name",Software Engineer,1
+SELECT * FROM Customer_Payments WHERE amount > 2677;,"66 rows found, including columns: order_id, payment_id, status, activity",IT Analyst,1
+SELECT * FROM Inventory;,"658 rows returned; columns: email, first_name, employee_id, order_id.",CMO,1
+"SELECT customer_id, name FROM Customers;","884 rows returned; columns: review_id, status, employee_id, last_name.",Systems Administrator,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","850 rows found, including columns: price, customer_id, review_id",Procurement Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","145 rows returned; columns: product_name, email, customer_id.",CEO,1
+"SELECT customer_id, name FROM Customers;","665 rows found, including columns: email, status, last_name, customer_id, order_id",HR Manager,1
+SELECT * FROM Orders WHERE status='Pending';,"122 rows found, including columns: customer_id, amount, status",Futures trader,1
+SELECT * FROM Customer_Payments WHERE amount > 2043;,"Retrieved 452 rows with columns: timestamp, order_id, order_date",Order Processor,1
+"SELECT customer_id, name FROM Customers;","100 rows returned; columns: last_name, order_date, order_id, product_name.",Sales Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","222 rows found, including columns: price, review_id, event_name, status",Security Analyst,1
+"SELECT employee_id, first_name, last_name FROM Employees;","498 rows found, including columns: comment, event_name, order_id, price, employee_id",COO,1
+"SELECT customer_id, name FROM Customers;","139 rows found, including columns: order_id, status, event_name",CEO,1
+SELECT * FROM Inventory;,"Retrieved 570 rows with columns: product_name, status, event_name, price",Business Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","597 rows found, including columns: product_id, product_name, order_id",Naval architect,1
+SELECT * FROM Employee_Personal_Info;,"264 rows returned; columns: phone, address, expiry, social_security_number, cvv.",Data Entry Clerk,0
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 207 rows with columns: comment, product_id, customer_id, event_id",Product Manager,1
+( INSERT DROP INSERT ;;,"887 rows returned; columns: product_id, first_name, comment.",Marketing Specialist,1
+) INSERT JOIN INSERT > SELECT VALUES;,"Retrieved 977 rows with columns: last_name, review_id, call, event_id",Security Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","352 rows found, including columns: status, review_id, product_name",Software Engineer,1
+SELECT * FROM Orders WHERE status='Pending';,"513 rows found, including columns: payment_id, customer_id, order_id, user_id, amount",Team Lead,1
+"SELECT employee_id, first_name, last_name FROM Employees;","965 rows found, including columns: price, rating, product_id, status",Customer Support Representative,1
+"SELECT employee_id, first_name, last_name FROM Employees;","246 rows found, including columns: order_id, customer_id, status, comment",Sales Manager,1
+"SELECT product_id, product_name, price FROM Products;","559 rows found, including columns: customer_id, event_id, product_id",Security Analyst,1
+"SELECT employee_id, first_name, last_name FROM Employees;","285 rows found, including columns: price, employee_id, review_id, product_id, first_name",Editorial assistant,1
+"SELECT product_id, product_name, price FROM Products;","805 rows returned; columns: email, customer_id, employee_id, my, comment, event_name.",IT Specialist,1
+SELECT * FROM Sensitive_Logs;,"393 rows found, including columns: social_security_number, month, card_number, name, department, cvv",Data Entry Clerk,0
+"SELECT employee_id, first_name, last_name FROM Employees;","674 rows found, including columns: comment, review_id, product_name, product_id","Surveyor, rural practice",1
+"SELECT product_id, product_name, price FROM Products;","654 rows found, including columns: employee_id, customer_id, comment, review_id, last_name",Product Manager,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 934 rows with columns: order_date, event_name, comment, event_id, simply, rating",Data Scientist,1
+SELECT * FROM Inventory;,"687 rows returned; columns: employee_id, event_id, review_id, price, first_name.",Project Manager,1
+SELECT * FROM Inventory;,"Retrieved 333 rows with columns: email, event_name, customer_id, order_id",CMO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","409 rows returned; columns: order_id, customer_id, represent, employee_id, price, comment.",CTO,1
+SELECT * FROM Orders WHERE status='Pending';,"269 rows returned; columns: timestamp, customer_id, order_date, status.",Sports therapist,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 957 rows with columns: wear, employee_id, email, comment",Accountant,1
+"SELECT product_id, product_name, price FROM Products;","272 rows returned; columns: customer_id, product_name, event_id.",Operations Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 401 rows with columns: event_id, status, review_id, first_name, employee_id",CMO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","654 rows returned; columns: customer_id, order_date, comment, rating.",Project Manager,1
+SELECT * FROM User_Login_History WHERE success=0;,"134 rows found, including columns: expiry, ip_address, salary, department, timestamp",Data Entry Clerk,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","116 rows found, including columns: event_name, rating, order_id",CFO,1
+INSERT player JOIN ; ) perhaps ON DROP;,"648 rows found, including columns: rating, order_id, last_name, employee_id, review_id",Sales Manager,1
+"SELECT product_id, product_name, price FROM Products;","257 rows found, including columns: product_id, order_id, comment",Project Manager,1
+SELECT * FROM Inventory;,"991 rows found, including columns: status, review_id, price, employee_id",Operations Manager,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 604 rows with columns: review_id, majority, status, order_id",Product Manager,1
+> FROM JOIN;,"416 rows returned; columns: customer_id, first_name, comment, email, product_name.",Product Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","794 rows returned; columns: product_id, status, rating.",HR Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","170 rows returned; columns: product_id, review_id, last_name, price, email.",CEO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 842 rows with columns: event_name, price, order_id",Auditor,1
+SELECT * FROM Inventory;,"222 rows found, including columns: status, review_id, price, event_name, comment",Security Analyst,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 336 rows with columns: product_name, order_date, status, last_name",Auditor,1
+"SELECT customer_id, name FROM Customers;","574 rows returned; columns: email, order_date, product_name.",Software Engineer,1
+SELECT * FROM User_Login_History WHERE success=0;,"168 rows found, including columns: customer_id, cvv, user_id",Junior Analyst,0
+"SELECT product_id, product_name, price FROM Products;","309 rows found, including columns: product_id, product_name, rating, event_id, email",COO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","Retrieved 63 rows with columns: email, status, event_name, back, price",Business Analyst,1
+SELECT * FROM User_Activity;,"598 rows found, including columns: user_id, order_date, order_id, status, payment_id",IT Analyst,1
+"SELECT product_id, product_name, price FROM Products;","91 rows found, including columns: price, customer_id, rating",Chief Operating Officer,1
+"SELECT customer_id, name FROM Customers;","Retrieved 755 rows with columns: product_name, email, rating, customer_id",Customer Support Representative,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","524 rows found, including columns: first_name, email, rating, event_id",Medical illustrator,1
+"SELECT product_id, product_name, price FROM Products;","550 rows found, including columns: employee_id, order_date, rating, comment",IT Specialist,1
+SELECT * FROM Inventory;,"62 rows returned; columns: first_name, order_date, event_name, product_id, last_name.",Accountant,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","458 rows found, including columns: email, rating, who, event_id, product_name",CTO,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","852 rows found, including columns: order_date, price, last_name, email",Finance Analyst,0
+SELECT * FROM Orders WHERE status='Pending';,"496 rows returned; columns: timestamp, throw, payment_id, order_date, customer_id, amount.",Regional Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 755 rows with columns: comment, employee_id, order_id, event_name",Product Manager,1
+SELECT * FROM Inventory;,"421 rows returned; columns: product_id, first_name, comment, price.",Sales Manager,0
+"SELECT customer_id, name FROM Customers;","86 rows returned; columns: customer_id, product_name, order_date, product_id.",CFO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","372 rows returned; columns: product_name, rating, order_id, event_id.",Auditor,1
+"SELECT employee_id, first_name, last_name FROM Employees;","975 rows returned; columns: event_name, comment, review_id, product_id, first_name.",Counsellor,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 683 rows with columns: first_name, email, product_id, review_id, status",Procurement Manager,1
+"SELECT customer_id, name FROM Customers;","Retrieved 667 rows with columns: event_id, email, product_name, last_name",HR Manager,1
+SELECT * FROM Credit_Card_Info;,"91 rows found, including columns: bonus, phone, user_id, department",Junior Analyst,0
+"SELECT product_id, product_name, price FROM Products;","333 rows found, including columns: review_id, customer_id, event_name, order_date, status",Marketing Specialist,1
+"SELECT product_id, product_name, price FROM Products;","651 rows returned; columns: product_name, whether, rating, order_id, review_id.",Project Manager,1
+"SELECT customer_id, name FROM Customers;","285 rows found, including columns: comment, email, order_date, status, event_id",CFO,1
+SELECT * FROM Sensitive_Logs;,"196 rows found, including columns: address, phone, customer_id, bonus",Junior Analyst,0
+ON VALUES FROM;,"513 rows returned; columns: amount, order_id, timestamp, order_date.",Regional Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 393 rows with columns: employee_id, last_name, price, customer_id, first_name","Nurse, children's",1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 175 rows with columns: rating, product_name, product_id, order_id, order_date","Production designer, theatre/television/film",1
+"SELECT customer_id, name FROM Customers;","941 rows found, including columns: comment, customer_id, product_id, event_id",Product Manager,1
+( * = ON;,"Retrieved 533 rows with columns: event_id, rating, price, order_id, comment",Accountant,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 577 rows with columns: status, far, last_name, review_id",Media buyer,1
+SELECT * FROM Inventory;,"736 rows returned; columns: event_name, ability, review_id, event_id, comment.",Sales Manager,1
+"SELECT customer_id, name FROM Customers;","Retrieved 944 rows with columns: customer_id, order_date, event_id, product_id, employee_id",Data Scientist,1
+"SELECT employee_id, first_name, last_name FROM Employees;","111 rows returned; columns: performance, email, first_name, comment, rating, review_id.",Procurement Manager,1
+"SELECT customer_id, name FROM Customers;","Retrieved 870 rows with columns: first_name, rating, product_id, employee_id",Environmental consultant,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 74 rows with columns: status, product_id, email",Systems developer,0
+SELECT * FROM Orders WHERE status='Pending';,"278 rows found, including columns: amount, customer_id, timestamp, user_id",Phytotherapist,1
+SELECT * FROM Inventory;,"337 rows returned; columns: email, employee_id, product_name, order_id.",CFO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 408 rows with columns: rating, status, comment",Insurance underwriter,1
+"SELECT customer_id, name FROM Customers;","Retrieved 996 rows with columns: price, review_id, order_id",Marketing Specialist,1
+FROM ) realize FROM ( );,"51 rows found, including columns: user_id, cvv, timestamp, expiry",Trainee,0
+"SELECT product_id, product_name, price FROM Products;","976 rows found, including columns: status, event_name, rating, customer_id, foreign, price",Marketing Specialist,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","203 rows returned; columns: comment, product_id, order_id, first_name.",Business Analyst,1
+SELECT * FROM Customer_Payments WHERE amount > 2505;,"134 rows returned; columns: order_date, timestamp, status.",Regional Manager,1
+SELECT * FROM Employee_Personal_Info;,"Retrieved 327 rows with columns: card_number, ip_address, bonus, department",Trainee,0
+JOIN UPDATE us 'X';,"Retrieved 323 rows with columns: comment, email, event_id",Product Manager,1
+SELECT * FROM Customer_Payments WHERE amount > 8234;,"68 rows found, including columns: expiry, cvv, address",Data Entry Clerk,0
+TABLE UPDATE SELECT TABLE ) UPDATE;,"378 rows found, including columns: status, timestamp, payment_id",Microbiologist,1
+"SELECT customer_id, name FROM Customers;","315 rows returned; columns: customer_id, first_name, email.",Security Analyst,1
+"SELECT product_id, product_name, price FROM Products;","974 rows found, including columns: order_id, rating, review_id, order_date, last_name",Data Scientist,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 175 rows with columns: event_id, order_id, customer_id",IT Specialist,1
+SELECT * FROM Inventory;,"Retrieved 256 rows with columns: order_id, bad, price, order_date, rating",Procurement Manager,1
+SELECT * FROM Sensitive_Logs;,"398 rows found, including columns: department, employee_id, ip_address, salary",Armed forces training and education officer,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","831 rows returned; columns: status, product_id, order_id.",Systems Administrator,1
+"SELECT product_id, product_name, price FROM Products;","82 rows returned; columns: review_id, event_id, employee_id.",Product Manager,1
+"SELECT product_id, product_name, price FROM Products;","755 rows returned; columns: event_id, price, product_name, employee_id, customer_id.",Software Engineer,1
+SELECT * FROM Customer_Payments WHERE amount > 9922;,"440 rows found, including columns: address, timestamp, salary",HR Intern,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 317 rows with columns: account, event_id, event_name, last_name, order_id, rating",Security Analyst,1
+"SELECT employee_id, first_name, last_name FROM Employees;","630 rows found, including columns: always, first_name, rating, order_id, price","Journalist, broadcasting",1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 479 rows with columns: drive, order_id, rating, customer_id, product_id, review_id",Customer Support Representative,1
+SELECT * FROM Sensitive_Logs;,"409 rows found, including columns: cvv, name, social_security_number, timestamp, ip_address",Trainee,0
+SELECT * FROM Customer_Payments WHERE amount > 2447;,"88 rows returned; columns: customer_id, amount, timestamp, activity, user_id.",Team Lead,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 926 rows with columns: comment, employee_id, customer_id, status, order_date",Accountant,1
+TABLE strong UPDATE JOIN JOIN;,"Retrieved 327 rows with columns: memory, user_id, activity, status",Supervisor,1
+"SELECT product_id, product_name, price FROM Products;","321 rows found, including columns: review_id, email, comment, order_date, status",CEO,1
+WHERE < VALUES FROM DROP SELECT DROP ;;,"373 rows returned; columns: order_date, order_id, comment.",Business Analyst,1
+SELECT * FROM Inventory;,"879 rows found, including columns: employee_id, email, event_name, status",Legal Counsel,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 548 rows with columns: review_id, order_date, price",CEO,1
+SELECT * FROM Customer_Payments WHERE amount > 6071;,"110 rows found, including columns: address, cvv, expiry",Trainee,0
+"SELECT product_id, product_name, price FROM Products;","261 rows returned; columns: comment, always, price, order_id, customer_id.",Systems Administrator,1
+SELECT * FROM Inventory;,"899 rows returned; columns: product_id, employee_id, event_name, comment, so, last_name.",Art therapist,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","322 rows found, including columns: well, price, comment, customer_id",Sales Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 230 rows with columns: product_id, rating, first_name, last_name",Consulting civil engineer,1
+SELECT * FROM Customer_Payments WHERE amount > 5145;,"22 rows found, including columns: employee_id, expiry, card_number",Data Entry Clerk,0
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","576 rows found, including columns: order_date, review_id, rating",Procurement Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","574 rows returned; columns: first_name, product_name, product_id, event_id, order_date.",Customer Support Representative,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","191 rows returned; columns: price, event_id, event_name, customer_id, product_id.",HR Manager,0
+SELECT * FROM User_Activity;,"342 rows found, including columns: order_date, payment_id, customer_id, status, activity",Academic librarian,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","251 rows returned; columns: last_name, product_name, customer_id.",HR Manager,1
+"SELECT customer_id, name FROM Customers;","Retrieved 94 rows with columns: order_date, first_name, comment, product_name, last_name",Operational investment banker,1
+SELECT * FROM Inventory;,"282 rows found, including columns: event_id, product_id, price, last_name, order_date",Sales Manager,1
+SELECT * FROM Orders WHERE status='Pending';,"167 rows found, including columns: timestamp, order_id, amount",Order Processor,1
+"SELECT customer_id, name FROM Customers;","816 rows found, including columns: last_name, order_id, employee_id",Water engineer,1
+"SELECT product_id, product_name, price FROM Products;","263 rows returned; columns: order_date, employee_id, review_id.",CMO,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","876 rows found, including columns: more, order_id, status, last_name, event_id",Security Analyst,1
+SELECT * FROM Inventory;,"767 rows found, including columns: last_name, employee_id, status, price, event_name",HR Manager,1
+SELECT ON FROM stuff stuff * stuff (;,"553 rows found, including columns: order_id, order_date, product_id, fire, review_id, status",Auditor,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","Retrieved 175 rows with columns: review_id, last_name, rating, customer_id, common",Data Scientist,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","651 rows returned; columns: email, product_name, status, rating, customer_id.",Operations Manager,1
+"SELECT customer_id, name FROM Customers;","558 rows found, including columns: first_name, event_id, status, price, order_id",Systems Administrator,1
+< lose 'X' < UPDATE;,"Retrieved 138 rows with columns: ip_address, bonus, customer_id, timestamp, employee_id",Intern,0
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 599 rows with columns: order_id, customer_id, employee_id",Product Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","Retrieved 898 rows with columns: mean, employee_id, review_id, first_name, order_id",Customer Support Representative,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","572 rows found, including columns: why, first_name, product_name, comment",HR Manager,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 537 rows with columns: comment, event_name, last_name, first_name, customer_id",Security Analyst,1
+"SELECT employee_id, first_name, last_name FROM Employees;","570 rows found, including columns: event_id, price, customer_id, protect",Clothing/textile technologist,0
+JOIN JOIN UPDATE ( 'X' > = <;,"346 rows found, including columns: social_security_number, expiry, employee_id, salary",Trainee,0
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 285 rows with columns: order_id, customer_id, employee_id, order_date",Operations Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","Retrieved 826 rows with columns: event_name, review_id, last_name, price",Security Analyst,1
+SELECT * FROM Orders WHERE status='Pending';,"Retrieved 536 rows with columns: order_id, payment_id, yeah, timestamp, activity, customer_id",Regional Manager,1
+"SELECT product_id, product_name, price FROM Products;","805 rows found, including columns: product_name, rating, sound, review_id, product_id, order_id",Systems Administrator,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","727 rows returned; columns: product_id, rating, total, order_id, first_name.",Project Manager,1
+SELECT * FROM Inventory;,"735 rows returned; columns: employee_id, email, identify, status.",Operations Manager,1
+SELECT * FROM Credit_Card_Info;,"Retrieved 278 rows with columns: card_number, name, address, timestamp",Trainee,0
+"SELECT product_id, product_name, price FROM Products;","Retrieved 832 rows with columns: order_id, event_id, status, rating",CEO,1
+"SELECT customer_id, name FROM Customers;","422 rows returned; columns: review_id, status, employee_id, event_id.",COO,1
+SELECT * FROM Inventory;,"251 rows found, including columns: product_id, matter, order_id, last_name, status",Sales Manager,1
+( * FROM DROP ( ON TABLE;,"682 rows found, including columns: comment, rating, email",Operations Manager,1
+INSERT ; TABLE FROM ON;,"145 rows found, including columns: last_name, product_name, email, order_id, review_id, score",Operations Manager,1
+"SELECT customer_id, name FROM Customers;","Retrieved 335 rows with columns: product_name, event_name, last_name, review_id, event_id",CMO,1
+"SELECT customer_id, name FROM Customers;","Retrieved 344 rows with columns: product_id, order_date, comment, status",COO,1
+SELECT * FROM Employee_Personal_Info;,"363 rows returned; columns: card_number, cvv, employee_id, timestamp.",Surgeon,0
+"SELECT product_id, product_name, price FROM Products;","717 rows returned; columns: last_name, comment, order_id, investment, review_id.",Finance Analyst,1
+> ) ON FROM;,"Retrieved 788 rows with columns: rating, event_name, status",Data Scientist,1
+"SELECT employee_id, first_name, last_name FROM Employees;","294 rows found, including columns: first_name, event_id, order_date",Project Manager,1
+WHERE JOIN TABLE * ( =;,"406 rows found, including columns: point, product_name, order_id, event_name, customer_id, order_date",Finance Analyst,1
+"SELECT product_id, product_name, price FROM Products;","585 rows found, including columns: customer_id, last_name, status",Systems Administrator,1
+SELECT * FROM Inventory;,"Retrieved 965 rows with columns: review_id, event_id, rating",Operations Manager,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 78 rows with columns: product_id, week, order_id, product_name",CTO,1
+"SELECT employee_id, first_name, last_name FROM Employees;","Retrieved 197 rows with columns: employee_id, status, product_id, comment, product_name",IT Specialist,0
+SELECT * FROM Inventory;,"Retrieved 407 rows with columns: comment, employee_id, rating, last_name",Customer Support Representative,1
+SELECT * FROM Orders WHERE status='Pending';,"Retrieved 573 rows with columns: amount, user_id, customer_id",Team Lead,1
+"SELECT product_id, product_name, price FROM Products;","317 rows returned; columns: rating, event_id, product_id.",Procurement Manager,1
+SELECT * FROM Inventory;,"232 rows found, including columns: event_id, product_id, price, first_name",CEO,1
+"SELECT salary, bonus FROM Employee_Salaries WHERE role='Manager';","322 rows found, including columns: ip_address, expiry, name, card_number",Building control surveyor,0
+"SELECT employee_id, first_name, last_name FROM Employees;","228 rows returned; columns: product_id, status, employee_id.",Legal Counsel,0
+"SELECT employee_id, first_name, last_name FROM Employees;","315 rows found, including columns: last_name, comment, product_name",CTO,1
+"SELECT product_id, product_name, price FROM Products;","Retrieved 689 rows with columns: comment, product_id, price",Customer Support Representative,1
+"SELECT employee_id, first_name, last_name FROM Employees;","564 rows returned; columns: employee_id, product_name, event_id, event_name.",Homeopath,1
+SELECT * FROM Inventory;,"341 rows returned; columns: last_name, email, comment, order_id.",Customer Support Representative,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 994 rows with columns: radio, order_date, email, customer_id, status",CMO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","803 rows returned; columns: email, first_name, customer_id.",Operations Manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","460 rows found, including columns: email, price, event_name, product_name, review_id",CTO,1
+( ON >;,"692 rows found, including columns: product_name, comment, order_date, rating, review_id",Accountant,1
+TABLE TABLE wall TABLE;,"Retrieved 874 rows with columns: order_id, price, review_id",Security Analyst,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 746 rows with columns: last_name, order_id, product_name, comment, order_date",CTO,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 3;","801 rows found, including columns: product_name, customer_id, product_id",Customer Support Representative,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","124 rows returned; columns: order_date, status, price.",Architectural technologist,1
+> impact UPDATE ( DROP ( SELECT =;,"Retrieved 342 rows with columns: price, event_id, employee_id, event_name, last_name",Systems Administrator,1
+"SELECT product_id, product_name, price FROM Products;","794 rows found, including columns: comment, rating, customer_id, event_id",Sales Manager,1
+"SELECT employee_id, first_name, last_name FROM Employees;","141 rows found, including columns: employee_id, customer_id, review_id, product_id, term","Designer, interior/spatial",1
+SELECT * FROM Orders WHERE status='Pending';,"111 rows returned; columns: activity, customer_id, payment_id.",Regional Manager,1
+"SELECT order_id, order_date FROM Orders WHERE status='Completed';","Retrieved 457 rows with columns: email, price, review_id",IT Specialist,1
+"SELECT product_id, product_name, price FROM Products;","732 rows found, including columns: status, customer_id, rating, event_id, order_id",Finance Analyst,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 5;","Retrieved 976 rows with columns: first_name, product_id, price, song",Environmental manager,1
+"SELECT review_id, product_id, rating, comment FROM Product_Reviews WHERE rating >= 4;","252 rows found, including columns: employee_id, email, order_id",Project Manager,1

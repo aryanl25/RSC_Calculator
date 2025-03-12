@@ -1,0 +1,9 @@
+# Exclude virtual environments
+venv/
+
+# Exclude Python cache files
+__pycache__/
+*.pyc
+
+# Optionally exclude system files
+.DS_Store
